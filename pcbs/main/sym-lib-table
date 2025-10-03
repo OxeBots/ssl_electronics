@@ -6,4 +6,5 @@
   (lib (name "B2B-XH-A")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/B2B-XH-A.kicad_sym")(options "")(descr ""))
   (lib (name "B5B-XH-A")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/B5B-XH-A.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/XT30PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "MR30PW-M")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/MR30PW-M.kicad_sym")(options "")(descr ""))
 )
