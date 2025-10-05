@@ -1379,24 +1379,6 @@
 		(uuid "fad7f316-4703-48a0-a15c-d9b309d8b526")
 	)
 	(bus_entry
-		(at 138.43 35.56)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f9d9f32-e12e-4a38-8601-64586a8ed297")
-	)
-	(bus_entry
-		(at 138.43 27.94)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24772df3-4952-4bb3-ab23-f6f99d44313a")
-	)
-	(bus_entry
 		(at 138.43 21.59)
 		(size -2.54 2.54)
 		(stroke
@@ -1404,42 +1386,6 @@
 			(type default)
 		)
 		(uuid "2cb11e53-f8da-40b8-98e7-cbf8513b2f68")
-	)
-	(bus_entry
-		(at 135.89 40.64)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35566a21-09ba-458c-bd03-432669b1002a")
-	)
-	(bus_entry
-		(at 138.43 24.13)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1e1abd-bb19-4542-bc3b-5fad53bfa85a")
-	)
-	(bus_entry
-		(at 138.43 30.48)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6417320-cd54-45f0-b35f-42daea0e3294")
-	)
-	(bus_entry
-		(at 138.43 33.02)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1756ad-93f0-409c-b016-dd0716bff0bf")
 	)
 	(wire
 		(pts
@@ -1651,26 +1597,6 @@
 		)
 		(uuid "5dfcebb9-96e3-41e5-bc8c-701bcbf5dd14")
 	)
-	(bus
-		(pts
-			(xy 138.43 33.02) (xy 138.43 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603651ac-69c5-4e37-bffd-da4e3b00fbe7")
-	)
-	(bus
-		(pts
-			(xy 138.43 30.48) (xy 138.43 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73edc5b3-4fb0-4463-98ad-40d88c7da930")
-	)
 	(wire
 		(pts
 			(xy 133.35 76.2) (xy 115.57 76.2)
@@ -1693,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 38.1) (xy 125.73 38.1)
+			(xy 125.73 38.1) (xy 140.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1701,19 +1627,9 @@
 		)
 		(uuid "7902154d-1e92-4578-82a4-27615fe559f0")
 	)
-	(bus
-		(pts
-			(xy 138.43 27.94) (xy 138.43 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0e48eb-1236-45e6-b697-a1844ac7ef7b")
-	)
 	(wire
 		(pts
-			(xy 135.89 30.48) (xy 121.92 30.48)
+			(xy 121.92 30.48) (xy 140.97 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1761,16 +1677,6 @@
 		)
 		(uuid "94518e3b-9ac3-4198-af51-566d2fb87b1c")
 	)
-	(bus
-		(pts
-			(xy 138.43 35.56) (xy 138.43 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99895afa-244f-4045-88cc-a4ce23668d5e")
-	)
 	(wire
 		(pts
 			(xy 135.89 24.13) (xy 118.11 24.13)
@@ -1803,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 135.89 40.64)
+			(xy 127 40.64) (xy 140.97 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 35.56) (xy 124.46 35.56)
+			(xy 124.46 35.56) (xy 140.97 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1941,19 +1847,9 @@
 		)
 		(uuid "e361ec65-a05e-4b2a-9359-729f9c977484")
 	)
-	(bus
-		(pts
-			(xy 139.7 26.67) (xy 138.43 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3bec6e0-a499-48bd-8690-83b8b5dd2894")
-	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 123.19 33.02)
+			(xy 123.19 33.02) (xy 140.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2000,16 +1896,6 @@
 			(type default)
 		)
 		(uuid "fbc2a5b2-3c85-4a5f-aedc-11d62e551eb6")
-	)
-	(bus
-		(pts
-			(xy 138.43 35.56) (xy 138.43 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf6f6de-2432-4474-8069-67d77cb344fa")
 	)
 	(label "RADIO.MOSI"
 		(at 135.89 38.1 180)
@@ -2125,6 +2011,17 @@
 		)
 		(uuid "25492f57-b287-49e5-af52-bc6c0bc02b08")
 	)
+	(hierarchical_label "RADIO_MOSI"
+		(shape input)
+		(at 140.97 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a1017cd-a6fa-4127-acf2-b3b375d40ebc")
+	)
 	(hierarchical_label "M4_DIR"
 		(shape output)
 		(at 133.35 81.28 0)
@@ -2135,6 +2032,17 @@
 			(justify left)
 		)
 		(uuid "4c66f43d-6523-45c7-9867-6e36a4d85f8a")
+	)
+	(hierarchical_label "RADIO_MISO"
+		(shape input)
+		(at 140.97 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "626bf266-1bee-40f7-9ae5-572faaa19f3e")
 	)
 	(hierarchical_label "Blink_IO"
 		(shape output)
@@ -2147,16 +2055,27 @@
 		)
 		(uuid "6c7232a4-2860-4f92-a433-84cdb85308bf")
 	)
-	(hierarchical_label "RADIO{RADIO}"
-		(shape bidirectional)
-		(at 139.7 26.67 0)
+	(hierarchical_label "RADIO_CE"
+		(shape input)
+		(at 140.97 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7c0c1304-ff5b-4896-b9cd-f9aa7fe61e6b")
+		(uuid "73b7fd12-4fed-435c-98e2-65cf61ce4f32")
+	)
+	(hierarchical_label "RADIO_CLK"
+		(shape input)
+		(at 140.97 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fb960f3-0e9c-4d06-9581-9cd74bbad334")
 	)
 	(hierarchical_label "M4_ENC"
 		(shape input)
@@ -2212,6 +2131,17 @@
 			(justify left)
 		)
 		(uuid "b4e15c6b-d280-4cc9-9d77-9a8dae240942")
+	)
+	(hierarchical_label "RADIO_CNS"
+		(shape input)
+		(at 140.97 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b654d4d2-bee8-4f10-89a2-69226ab266a2")
 	)
 	(hierarchical_label "KICKER_EN"
 		(shape input)

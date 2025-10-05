@@ -644,6 +644,10 @@
     [
       "8685a131-80f6-4b62-a6fe-8696f4df0910",
       "power"
+    ],
+    [
+      "95ef0ac5-d3bd-43eb-894b-cca92402ec9c",
+      "radio"
     ]
   ],
   "text_variables": {}

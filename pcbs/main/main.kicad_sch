@@ -265,22 +265,28 @@
 		)
 	)
 	(no_connect
-		(at 182.88 80.01)
-		(uuid "40e29784-9fd6-4c60-abef-0137bd72f6e9")
-	)
-	(no_connect
 		(at 182.88 50.8)
 		(uuid "9959d556-2d44-41db-acfe-a5e675300a8f")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 175.26 80.01) (xy 182.88 80.01)
+			(xy 120.65 91.44) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18cccd15-7e82-4a21-b797-a82617e3f1d3")
+		(uuid "0c64ec79-1dcd-4b6f-88d1-a3a19b011f0c")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19aff786-ea07-4194-be97-4408d4d7b2b2")
 	)
 	(wire
 		(pts
@@ -301,6 +307,16 @@
 			(type default)
 		)
 		(uuid "3510d17d-dba1-4190-9e3a-0b0760636e2d")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3565456c-dd38-4d18-8413-6d4c78bfcccd")
 	)
 	(wire
 		(pts
@@ -354,6 +370,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7477bcf0-583f-4120-bfdf-468912d9190d")
+	)
+	(wire
+		(pts
 			(xy 120.65 55.88) (xy 137.16 55.88)
 		)
 		(stroke
@@ -371,6 +397,16 @@
 			(type default)
 		)
 		(uuid "7f71e7c2-0f4d-45e7-a190-eb18e953bc80")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885360f1-a885-4b52-9fee-28089e3faec3")
 	)
 	(wire
 		(pts
@@ -424,6 +460,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54e86b2-6aca-4834-82cf-43ea74080336")
+	)
+	(wire
+		(pts
+			(xy 175.26 80.01) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc958f06-ddb5-431f-9e4e-ca4191e29169")
+	)
+	(wire
+		(pts
 			(xy 120.65 71.12) (xy 137.16 71.12)
 		)
 		(stroke
@@ -444,6 +500,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 77.47) (xy 184.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71734eb-95ba-4cf7-98f3-da8d37997b9c")
+	)
+	(wire
+		(pts
 			(xy 120.65 80.01) (xy 137.16 80.01)
 		)
 		(stroke
@@ -451,6 +517,16 @@
 			(type default)
 		)
 		(uuid "df71932f-1f28-4b03-9c52-45a0c64223ea")
+	)
+	(wire
+		(pts
+			(xy 175.26 72.39) (xy 184.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bc3bae-12a0-4ff8-b3c8-f3e804849b42")
 	)
 	(symbol
 		(lib_id "power:+24V")
@@ -586,7 +662,7 @@
 	)
 	(sheet
 		(at 101.6 48.26)
-		(size 19.05 36.83)
+		(size 19.05 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -610,7 +686,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 101.6 85.6746 0)
+			(at 101.6 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,6 +814,66 @@
 				(justify right)
 			)
 		)
+		(pin "ENC_SCL" input
+			(at 120.65 100.33 0)
+			(uuid "17aeef96-22c0-4b0c-a310-252046ea5e63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC_SDA" input
+			(at 120.65 102.87 0)
+			(uuid "f6ff9c71-d412-464d-a7f4-10777fdab965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M1_ENC_OUT" input
+			(at 120.65 86.36 0)
+			(uuid "6e0973f5-8535-4a46-a06a-7fe56f81cc69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2_ENC_OUT" input
+			(at 120.65 88.9 0)
+			(uuid "f7088c8c-9eb8-432a-841e-9c4931829697")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M3_ENC_OUT" input
+			(at 120.65 91.44 0)
+			(uuid "d2e9fb8c-7ce9-45d9-9358-54e0a1175d48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M4_ENC_OUT" input
+			(at 120.65 93.98 0)
+			(uuid "e22ba9c9-0c0b-4d23-b610-28e2892691c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
@@ -809,8 +945,100 @@
 		)
 	)
 	(sheet
+		(at 184.15 69.85)
+		(size 16.51 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95ef0ac5-d3bd-43eb-894b-cca92402ec9c")
+		(property "Sheetname" "radio"
+			(at 184.15 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 184.15 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RADIO_MISO" output
+			(at 184.15 74.93 180)
+			(uuid "9f0bc45b-87e8-4629-8d8c-edfbc1db5058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_MOSI" input
+			(at 184.15 77.47 180)
+			(uuid "053b69da-4ffb-46a0-88bd-4fbda779b1fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_SCK" input
+			(at 184.15 80.01 180)
+			(uuid "c326aa23-a424-4d9a-a911-4311c17510ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_CE" input
+			(at 184.15 82.55 180)
+			(uuid "6edad71a-06ed-4cc5-ba5d-2dafc204f5f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_CNS" input
+			(at 184.15 72.39 180)
+			(uuid "fa80193e-5eb9-4e63-8c1f-611541cefd12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 137.16 48.26)
-		(size 38.1 36.83)
+		(size 38.1 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -834,7 +1062,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 137.16 85.6746 0)
+			(at 137.16 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,9 +1200,119 @@
 				(justify right)
 			)
 		)
-		(pin "RADIO{RADIO}" bidirectional
+		(pin "Blink_IO" output
+			(at 154.94 48.26 90)
+			(uuid "6a50e5a8-f3bd-420c-8d4a-6c49f454941d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KICKER_EN" input
+			(at 157.48 48.26 90)
+			(uuid "cb9b4475-14e4-4a7a-be14-766d8b8f4a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KICKER_PWM" input
+			(at 160.02 48.26 90)
+			(uuid "793b248f-b017-472c-9533-1b83b2da514a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M1_ENC" input
+			(at 137.16 86.36 180)
+			(uuid "0e72c2ea-57ac-4c46-9deb-8a5b5b8f81f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2_ENC" input
+			(at 137.16 88.9 180)
+			(uuid "b71ab3b6-47d8-4878-a08e-4973aed96b20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M3_ENC" input
+			(at 137.16 91.44 180)
+			(uuid "0f51c195-73ca-49fa-96ca-c46a69bdbac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M4_ENC" input
+			(at 137.16 93.98 180)
+			(uuid "a4c41fb9-3d53-4c40-9633-12bca2866545")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_CE" input
+			(at 175.26 82.55 0)
+			(uuid "8a298937-6c8f-4152-a01e-a52f0ef1c00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_CLK" input
 			(at 175.26 80.01 0)
-			(uuid "e978e5bf-06c0-42af-a903-abca8b3e474e")
+			(uuid "de3aeb3f-1328-4468-9ce6-47a8f1802d89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_CNS" input
+			(at 175.26 72.39 0)
+			(uuid "5eadef66-e062-48a1-905e-87c7f15191e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_MISO" input
+			(at 175.26 74.93 0)
+			(uuid "a5d69521-2691-48f1-a25e-ec7183b40115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_MOSI" input
+			(at 175.26 77.47 0)
+			(uuid "35afe142-a295-40a7-8e8f-8ef69d224583")
 			(effects
 				(font
 					(size 1.27 1.27)
