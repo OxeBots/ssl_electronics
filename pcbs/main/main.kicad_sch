@@ -264,10 +264,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 182.88 50.8)
-		(uuid "9959d556-2d44-41db-acfe-a5e675300a8f")
-	)
 	(wire
 		(pts
 			(xy 120.65 91.44) (xy 137.16 91.44)
@@ -327,16 +323,6 @@
 			(type default)
 		)
 		(uuid "46c1ee59-22a5-4084-8776-77c63af7a39d")
-	)
-	(bus
-		(pts
-			(xy 175.26 50.8) (xy 182.88 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e5b232-18f3-4e12-94b9-58282498fd0b")
 	)
 	(wire
 		(pts
@@ -1037,6 +1023,48 @@
 		)
 	)
 	(sheet
+		(at 184.15 49.53)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97614e73-f067-42e4-a0bb-405069e0b536")
+		(property "Sheetname" "imu"
+			(at 184.15 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 184.15 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 137.16 48.26)
 		(size 38.1 60.96)
 		(exclude_from_sim no)
@@ -1188,16 +1216,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "IMU{IMU}" bidirectional
-			(at 175.26 50.8 0)
-			(uuid "67b9310c-9b91-498e-b663-f5a492d263f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "Blink_IO" output

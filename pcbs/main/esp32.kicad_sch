@@ -1378,15 +1378,6 @@
 		(at 115.57 93.98)
 		(uuid "fad7f316-4703-48a0-a15c-d9b309d8b526")
 	)
-	(bus_entry
-		(at 138.43 21.59)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb11e53-f8da-40b8-98e7-cbf8513b2f68")
-	)
 	(wire
 		(pts
 			(xy 133.35 73.66) (xy 115.57 73.66)
@@ -1416,16 +1407,6 @@
 			(type default)
 		)
 		(uuid "1c4dab14-2a88-4e79-816e-20125501b012")
-	)
-	(bus
-		(pts
-			(xy 138.43 20.32) (xy 138.43 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "260ef62f-6479-4556-981e-ab5b2a550de5")
 	)
 	(wire
 		(pts
@@ -1529,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 26.67) (xy 119.38 26.67)
+			(xy 119.38 26.67) (xy 140.97 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1657,16 +1638,6 @@
 		)
 		(uuid "8dd55e14-611a-4ba9-8a2e-00af1d71f5df")
 	)
-	(bus
-		(pts
-			(xy 138.43 21.59) (xy 138.43 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fdc4553-9902-402f-a964-3565be6a8981")
-	)
 	(wire
 		(pts
 			(xy 115.57 86.36) (xy 127 86.36)
@@ -1679,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 24.13) (xy 118.11 24.13)
+			(xy 118.11 24.13) (xy 140.97 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1776,16 +1747,6 @@
 			(type default)
 		)
 		(uuid "c573512b-dcff-4ccd-b45c-d7469809353e")
-	)
-	(bus
-		(pts
-			(xy 139.7 20.32) (xy 138.43 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6abd95f-9678-40bb-97a3-fe3e8a7d6a19")
 	)
 	(wire
 		(pts
@@ -1978,6 +1939,17 @@
 		)
 		(uuid "0838cb99-9635-4055-8b77-3ba1afaec446")
 	)
+	(hierarchical_label "IMU_SCL"
+		(shape input)
+		(at 140.97 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eb79121-e62f-46ad-b144-dcc9a48f7e2e")
+	)
 	(hierarchical_label "M4_PWM"
 		(shape output)
 		(at 57.15 71.12 180)
@@ -2110,6 +2082,17 @@
 		)
 		(uuid "99d5b6b9-66b3-45e0-8016-689190fb2ecf")
 	)
+	(hierarchical_label "IMU_SDA"
+		(shape input)
+		(at 140.97 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e15c114-5693-4bc1-90d0-9ba032905d88")
+	)
 	(hierarchical_label "M1_PWM"
 		(shape output)
 		(at 57.15 63.5 180)
@@ -2164,17 +2147,6 @@
 			(justify right)
 		)
 		(uuid "c800ae2f-aab7-458b-8180-6d27154d3897")
-	)
-	(hierarchical_label "IMU{IMU}"
-		(shape bidirectional)
-		(at 139.7 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d91c186d-a783-4501-80c3-3fdbc55571e9")
 	)
 	(hierarchical_label "M1_ENC"
 		(shape input)

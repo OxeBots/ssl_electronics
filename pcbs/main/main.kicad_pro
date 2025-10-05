@@ -648,6 +648,10 @@
     [
       "95ef0ac5-d3bd-43eb-894b-cca92402ec9c",
       "radio"
+    ],
+    [
+      "97614e73-f067-42e4-a0bb-405069e0b536",
+      "imu"
     ]
   ],
   "text_variables": {}
