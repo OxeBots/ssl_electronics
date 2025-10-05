@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DCT15EFD_U44S003")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/DCT15EFD_U44S003.kicad_sym")(options "")(descr ""))
+  (lib (name "LT3751")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/LT3751.kicad_sym")(options "")(descr ""))
+)
