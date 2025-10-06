@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "07c20eac-3eda-4b04-8f8a-d844a585bc14")
 	(paper "A4")
+	(title_block
+		(title "SSL main board")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
 			(pin_names

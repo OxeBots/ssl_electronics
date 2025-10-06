@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "6b63401d-8ae9-45ba-88c5-7cd9275eab86")
 	(paper "A4")
+	(title_block
+		(title "SSL main board")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
@@ -599,7 +602,7 @@
 		)
 		(uuid "4ff9eac0-532e-44cd-8ced-d1307f6bb8dd")
 	)
-	(hierarchical_label "IMU_SLA"
+	(hierarchical_label "IMU_SDA"
 		(shape bidirectional)
 		(at 121.92 92.71 180)
 		(effects
