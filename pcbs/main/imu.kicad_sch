@@ -690,7 +690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73688b8f-b757-4afd-822e-4236aad06fb8")
-		(property "Reference" "IMU"
+		(property "Reference" "IMU1"
 			(at 138.43 90.1699 0)
 			(effects
 				(font
@@ -762,7 +762,7 @@
 		(instances
 			(project ""
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/97614e73-f067-42e4-a0bb-405069e0b536"
-					(reference "IMU")
+					(reference "IMU1")
 					(unit 1)
 				)
 			)
