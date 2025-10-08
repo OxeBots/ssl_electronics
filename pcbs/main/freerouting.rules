@@ -1,0 +1,86 @@
+
+(rules PCB freerouting.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.4)
+    )
+  )
+  (rule
+    (width 1000.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +24V +5V "Net-(M1-DIR)" "Net-(M1-PWM)" "Net-(M2-DIR)" "Net-(M2-PWM)" "Net-(M3-DIR)"
+    "Net-(M3-PWM)" "Net-(M4-DIR)" "Net-(M4-PWM)" "Net-(Q1-B)" "Net-(Q2-B)" "Net-(Q3-B)" "Net-(Q4-B)" "Net-(Q5-B)"
+    "Net-(Q6-B)" "Net-(Q7-B)" "Net-(Q8-B)" "/esp32/M1_DIR" "/esp32/M1_PWM" "/esp32/M2_DIR" "/esp32/M2_PWM" "/esp32/M3_DIR"
+    "/esp32/M3_PWM" "/esp32/M1_ENC" "/esp32/M4_DIR" "/esp32/M4_PWM" "/esp32/M2_ENC" "unconnected-(U1-SD2-Pad16)" "unconnected-(U1-SD3-Pad17)" "/esp32/M3_ENC"
+    /esp32/RADIO.CLK "unconnected-(U1-CLK-Pad20)" "/esp32/M4_ENC" /esp32/RADIO.CS +3V3 /esp32/RADIO.MISO "unconnected-(IMU1-Pin_6-Pad6)" /esp32/I2C.SCL
+    "unconnected-(U1-SD0-Pad21)" "unconnected-(U1-EN-Pad2)" /esp32/RADIO.MOSI "unconnected-(IMU1-Pin_1-Pad1)" +3.3V "unconnected-(U1-CMD-Pad18)" "unconnected-(IMU1-Pin_7-Pad7)" "unconnected-(IMU1-Pin_8-Pad8)"
+    "unconnected-(U1-SD1-Pad22)" /esp32/I2C.SDA "unconnected-(J1-Pin_3-Pad3)" "/esp32/KICKER_EN" "/esp32/KICKER_PWM" "/esp32/V_{MON}" "unconnected-(M1-Feedback-Pad2)" "unconnected-(M2-Feedback-Pad2)"
+    "unconnected-(M3-Feedback-Pad2)" "unconnected-(M4-Feedback-Pad2)" "Net-(PCB1-MISO)" "Net-(PCB1-SCK)" "Net-(PCB1-IRQ)" /esp32/RADIO.CE "Net-(PCB1-MOSI)" "Net-(PCB1-VCC_{out})"
+    "Net-(PCB1-CSN)" /esp32/RADIO.IRQ "Net-(PCB1-GND_{out})" "Net-(PCB1-CE)" "unconnected-(U1-IO15-Pad23)" "unconnected-(U1-IO12-Pad13)" "/esp32/Blink_IO" "Net-(J2-Pin_1)"
+    "Net-(J2-Pin_3)" "Net-(J2-Pin_7)" "Net-(J2-Pin_5)" "Net-(J2-Pin_11)" "Net-(J2-Pin_9)" "Net-(J2-Pin_13)" "Net-(J2-Pin_15)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
