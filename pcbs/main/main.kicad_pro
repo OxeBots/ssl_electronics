@@ -509,7 +509,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../exported/main_board.step",
       "svg": "",
       "vrml": ""
     },
