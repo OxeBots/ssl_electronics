@@ -1388,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 115.57 73.66)
+			(xy 57.15 66.04) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 71.12) (xy 57.15 71.12)
+			(xy 115.57 76.2) (xy 133.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 76.2) (xy 57.15 76.2)
+			(xy 115.57 73.66) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 66.04) (xy 74.93 66.04)
+			(xy 57.15 71.12) (xy 74.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 115.57 76.2)
+			(xy 57.15 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 74.93 68.58)
+			(xy 57.15 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2068,12 +2068,12 @@
 	)
 	(hierarchical_label "M1_DIR"
 		(shape output)
-		(at 133.35 73.66 0)
+		(at 57.15 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0838cb99-9635-4055-8b77-3ba1afaec446")
 	)
@@ -2090,12 +2090,12 @@
 	)
 	(hierarchical_label "M4_PWM"
 		(shape output)
-		(at 57.15 71.12 180)
+		(at 133.35 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "10f0d12d-fa19-4d4a-92eb-b26a4fcca47b")
 	)
@@ -2112,12 +2112,12 @@
 	)
 	(hierarchical_label "M2_DIR"
 		(shape output)
-		(at 133.35 76.2 0)
+		(at 57.15 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "25492f57-b287-49e5-af52-bc6c0bc02b08")
 	)
@@ -2134,12 +2134,12 @@
 	)
 	(hierarchical_label "M4_DIR"
 		(shape output)
-		(at 57.15 76.2 180)
+		(at 133.35 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4c66f43d-6523-45c7-9867-6e36a4d85f8a")
 	)
@@ -2288,7 +2288,7 @@
 	)
 	(hierarchical_label "M2_PWM"
 		(shape output)
-		(at 57.15 66.04 180)
+		(at 57.15 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,7 +2310,7 @@
 	)
 	(hierarchical_label "M3_PWM"
 		(shape output)
-		(at 57.15 68.58 180)
+		(at 57.15 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
