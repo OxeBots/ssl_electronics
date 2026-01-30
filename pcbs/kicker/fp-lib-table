@@ -3,4 +3,5 @@
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Bibliotecas de Terceiros/DCT15EFD_U44S003/footprints.pretty")(options "")(descr ""))
   (lib (name "TDK DCT15EFD-U44S003")(type "KiCad")(uri "${KIPRJMOD}/TDK DCT15EFD-U44S003.pretty")(options "")(descr ""))
   (lib (name "oxebots_transformer")(type "KiCad")(uri "C:/Users/Wildson/Documents/OxeBots/GitHub/ssl_electronics/Libraries/Footprints/oxebots_transformer.pretty")(options "")(descr ""))
+  (lib (name "oxebots_connectors")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Footprints/oxebots_connectors.pretty")(options "")(descr ""))
 )

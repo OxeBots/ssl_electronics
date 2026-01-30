@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "DCT15EFD_U44S003")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/DCT15EFD_U44S003.kicad_sym")(options "")(descr ""))
   (lib (name "LT3751")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/LT3751.kicad_sym")(options "")(descr ""))
+  (lib (name "XT30PW-F")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/XT30PW-F.kicad_sym")(options "")(descr ""))
+  (lib (name "3rd Part Libs")(type "KiCad")(uri "C:/Users/Wildson/Documents/OxeBots/Hardware/Kicker/Kicker_LT3751_OxeBots/3rd Part Libs/3rd Part Libs.kicad_sym")(options "")(descr ""))
+  (lib (name "oxebots")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Symbols/oxebots.kicad_sym")(options "")(descr ""))
 )
