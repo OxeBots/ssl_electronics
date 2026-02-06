@@ -20457,7 +20457,7 @@
 		)
 		(fp_line
 			(start 9.950001 1.7)
-			(end -1.949999 1.7)
+			(end -1.949998 1.7)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20486,7 +20486,7 @@
 			(uuid "8ca4cff9-2606-4245-8dab-301ff84a470f")
 		)
 		(fp_line
-			(start -1.949999 1.7)
+			(start -1.949998 1.7)
 			(end -1.95 -2.799999)
 			(stroke
 				(width 0.1)
@@ -26577,7 +26577,7 @@
 			(uuid "0275ae02-4cd7-4eb0-829f-d1db033ae62c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -6.6548 -1.016 0)
+			(at -6.6548 -1.016 180)
 			(layer "B.Fab")
 			(uuid "098fd85e-6cfa-4121-a203-6432ab0451fe")
 			(effects
@@ -26677,9 +26677,9 @@
 			(uuid "aedd7c2d-ee88-4b5a-8871-96199ee94c69")
 		)
 		(embedded_fonts no)
-		(model "${OXEBOTS_SSL_LIB_DIR}/3D models/gy-85.step"
+		(model "${OXEBOTS_SSL_LIB_DIR}/3D models/gy-85.STEP"
 			(offset
-				(xyz -148.5 104 11.5)
+				(xyz -148.5 104 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -26870,7 +26870,7 @@
 			(uuid "3db0171f-6a15-4e60-8be1-e4facb481dd4")
 		)
 		(fp_line
-			(start 1 -2.299999)
+			(start 1 -2.299998)
 			(end 1 -1.800001)
 			(stroke
 				(width 0.12)
@@ -26920,7 +26920,7 @@
 			(uuid "7db16d7b-f47f-4cb9-94d0-fdddd9a459b0")
 		)
 		(fp_line
-			(start -1.450001 -2.299998)
+			(start -1.450001 -2.299997)
 			(end 9.449999 -2.3)
 			(stroke
 				(width 0.12)
@@ -26991,7 +26991,7 @@
 		)
 		(fp_line
 			(start 7.5 1.2)
-			(end 7.5 1.809997)
+			(end 7.5 1.809996)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -27031,7 +27031,7 @@
 		)
 		(fp_line
 			(start -1.45 1.2)
-			(end -1.450001 -2.299998)
+			(end -1.450001 -2.299997)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -27220,7 +27220,7 @@
 			(uuid "3f7a0a0e-9593-473f-9786-df3736dfa018")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.999999 -1.499998 97)
+			(at 3.999999 -1.499997 97)
 			(layer "B.Fab")
 			(uuid "718414f9-3de3-43f2-9f85-54fee04cbb54")
 			(effects
