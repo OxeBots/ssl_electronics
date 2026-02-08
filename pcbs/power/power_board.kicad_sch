@@ -3462,6 +3462,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 99.06) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec8800e-ae29-4c70-ac6d-cb5e086319d8")
+	)
+	(wire
+		(pts
 			(xy 134.62 95.25) (xy 134.62 97.79)
 		)
 		(stroke
@@ -3662,6 +3672,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 104.14) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a31d3c-3690-40a0-9bb1-551f02f2cca0")
+	)
+	(wire
+		(pts
 			(xy 127 33.02) (xy 127 36.83)
 		)
 		(stroke
@@ -3669,6 +3689,16 @@
 			(type default)
 		)
 		(uuid "a1a64863-8fd8-4c4a-8c29-b9b4e724f835")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d2e1da-bf27-4e78-8ac4-495206a4b523")
 	)
 	(wire
 		(pts
@@ -4030,6 +4060,16 @@
 		)
 		(uuid "f872109a-0912-4412-8af6-ed698b6e01c1")
 	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9a9cda-94e6-4599-bad2-31acc4b8e27d")
+	)
 	(label "B_{GND}"
 		(at 246.38 77.47 0)
 		(effects
@@ -4150,6 +4190,72 @@
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 213.36 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "050e8919-e7bc-4ac0-ad1b-c2927fe016dd")
+		(property "Reference" "#PWR028"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 213.36 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1c4c4be-d94b-4fa1-8f3c-bb40f9cd3f4c")
+		)
+		(instances
+			(project "power_board"
+				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6892,6 +6998,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c6c33c-2858-4bc3-8b30-a802e5c4e1bc")
+		(property "Reference" "#PWR029"
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f473dd-150a-4513-aaf7-040f1f0a699f")
+		)
+		(instances
+			(project "power_board"
+				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 245.11 72.39 90)
 		(mirror x)
@@ -8834,6 +9006,77 @@
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 203.2 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8dadd0b-3258-4705-b603-93b4ce9894a4")
+		(property "Reference" "J13"
+			(at 200.66 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V connection"
+			(at 200.66 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oxebots_connectors:JST_B2B-XH-A"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1190f6a-7186-4605-b0fe-bb1a1b935855")
+		)
+		(pin "1"
+			(uuid "932ebd11-88dc-44e0-a02d-8c4c10c36315")
+		)
+		(instances
+			(project "power_board"
+				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
+					(reference "J13")
 					(unit 1)
 				)
 			)
