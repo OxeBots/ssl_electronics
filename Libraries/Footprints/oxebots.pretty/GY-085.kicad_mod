@@ -291,7 +291,7 @@
 	(embedded_fonts no)
 	(model "${OXEBOTS_SSL_LIB_DIR}/3D models/gy-85.step"
 		(offset
-			(xyz -142 96 11.5)
+			(xyz -148.5 104 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
