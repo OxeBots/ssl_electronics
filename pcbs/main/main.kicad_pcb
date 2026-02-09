@@ -7,6 +7,14 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "SSL main board")
+		(date "2025-04-28")
+		(rev "V01")
+		(comment 1 "https://creativecommons.org/licenses/by/4.0/")
+		(comment 2 "License: CC BY 4.0")
+		(comment 3 "Author: Oxebots Team")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
