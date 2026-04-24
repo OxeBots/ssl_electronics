@@ -1,0 +1,5 @@
+Footprints que foram alterados M3 de 'Oxebots:NRF24L01' para 'Oxebots:NRF24L01': : OK
+Footprints que foram alterados M4 de 'Oxebots:NRF24L01' para 'Oxebots:NRF24L01': : OK
+Footprints que foram alterados M2 de 'Oxebots:NRF24L01' para 'Oxebots:NRF24L01': : OK
+Footprints que foram alterados M1 de 'Oxebots:NRF24L01' para 'Oxebots:NRF24L01': : OK
+Footprints que foram alterados PCB2 de 'Oxebots:NRF24L01' para 'Oxebots:NRF24L01': : OK

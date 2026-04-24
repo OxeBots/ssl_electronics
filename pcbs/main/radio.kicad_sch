@@ -1318,7 +1318,7 @@
 			(uuid "e5051eef-6e51-4dd6-84dd-b79fede00043")
 		)
 		(instances
-			(project ""
+			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/95ef0ac5-d3bd-43eb-894b-cca92402ec9c"
 					(reference "PCB2")
 					(unit 1)
@@ -1427,7 +1427,7 @@
 			(uuid "525471fa-169d-4262-b787-9567f6b9f38b")
 		)
 		(instances
-			(project ""
+			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/95ef0ac5-d3bd-43eb-894b-cca92402ec9c"
 					(reference "PCB1")
 					(unit 1)
@@ -1494,7 +1494,7 @@
 			(uuid "ca7a954d-9db5-48be-8e37-522e96784118")
 		)
 		(instances
-			(project ""
+			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/95ef0ac5-d3bd-43eb-894b-cca92402ec9c"
 					(reference "#PWR039")
 					(unit 1)
@@ -1560,7 +1560,7 @@
 			(uuid "9e3cb3f4-5095-41b5-94ff-bb35b3b79377")
 		)
 		(instances
-			(project ""
+			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/95ef0ac5-d3bd-43eb-894b-cca92402ec9c"
 					(reference "#PWR040")
 					(unit 1)
@@ -1593,7 +1593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 48.26 67.6148 0)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 			(uuid "8d38f6ab-d424-4be1-90c6-fc5356a46670")
 		)
 		(instances
-			(project ""
+			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/95ef0ac5-d3bd-43eb-894b-cca92402ec9c"
 					(reference "C13")
 					(unit 1)
