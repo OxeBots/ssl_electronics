@@ -692,7 +692,7 @@
 			(uuid "96b3e41c-154e-4b7e-979c-025eeac44369")
 		)
 		(instances
-			(project "main"
+			(project ""
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/97614e73-f067-42e4-a0bb-405069e0b536"
 					(reference "#PWR042")
 					(unit 1)
@@ -780,7 +780,7 @@
 			(uuid "6d786e3e-90fe-4f81-a03d-5b30be8d827b")
 		)
 		(instances
-			(project "main"
+			(project ""
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/97614e73-f067-42e4-a0bb-405069e0b536"
 					(reference "IMU1")
 					(unit 1)
@@ -846,7 +846,7 @@
 			(uuid "1e0b5003-0a45-4699-93ab-955f394e29da")
 		)
 		(instances
-			(project "main"
+			(project ""
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/97614e73-f067-42e4-a0bb-405069e0b536"
 					(reference "#PWR041")
 					(unit 1)
