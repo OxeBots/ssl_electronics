@@ -6715,7 +6715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oxebots:JST_B2B-XH-A"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 63.5 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8744,7 +8744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oxebots:JST_B2B-XH-A"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 63.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9404,7 +9404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oxebots:JST_B2B-XH-A"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9643,7 +9643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oxebots:JST_B2B-XH-A"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
