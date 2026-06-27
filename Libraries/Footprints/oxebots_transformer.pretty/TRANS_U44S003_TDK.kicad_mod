@@ -895,4 +895,15 @@
 		(uuid "404af350-219f-4fc3-9ee6-70f3598f292d")
 	)
 	(embedded_fonts no)
+	(model "${OXEBOTS_SSL_LIB_DIR}/3D models/TDK_DCT15EFD-U44S003.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

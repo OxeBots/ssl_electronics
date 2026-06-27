@@ -188,6 +188,10 @@
       ],
       "track_widths": [
         0.0,
+        0.381,
+        0.508,
+        0.635,
+        0.762,
         1.27,
         2.0,
         2.54,
@@ -458,13 +462,17 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "oxebots_transformer",
+      "oxebots_connectors"
+    ],
     "pinned_symbol_libs": [
       "DCT15EFD_U44S003"
     ]
