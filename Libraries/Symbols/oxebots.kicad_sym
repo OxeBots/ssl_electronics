@@ -3165,8 +3165,8 @@
 		)
 		(symbol "NRF24L01_PWR_ADP_0_1"
 			(rectangle
-				(start -11.43 15.367)
-				(end 11.1759 -14.478)
+				(start -10.16 13.97)
+				(end 10.1599 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -3178,7 +3178,7 @@
 		)
 		(symbol "NRF24L01_PWR_ADP_1_1"
 			(text "NRF24L01_PWR_ADP"
-				(at 3.81 16.764 0)
+				(at 0.254 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 8.89 180)
+				(at 12.6999 8.89 180)
 				(length 2.54)
 				(name "GND_{out}"
 					(effects
@@ -3204,7 +3204,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 6.35 180)
+				(at 12.6999 6.35 180)
 				(length 2.54)
 				(name "CE"
 					(effects
@@ -3222,7 +3222,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 3.81 180)
+				(at 12.6999 3.81 180)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -3240,7 +3240,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 1.27 180)
+				(at 12.6999 1.27 180)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -3258,7 +3258,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 -1.27 180)
+				(at 12.6999 -1.27 180)
 				(length 2.54)
 				(name "VCC_{out}"
 					(effects
@@ -3276,7 +3276,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 -3.81 180)
+				(at 12.6999 -3.81 180)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -3294,7 +3294,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 -6.35 180)
+				(at 12.6999 -6.35 180)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -3312,7 +3312,7 @@
 				)
 			)
 			(pin output line
-				(at 13.7159 -8.89 180)
+				(at 12.6999 -8.89 180)
 				(length 2.54)
 				(name "IRQ"
 					(effects
@@ -3330,7 +3330,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 11.43 0)
+				(at -12.7 11.43 0)
 				(length 2.54)
 				(name "CE_{mcu}"
 					(effects
@@ -3348,7 +3348,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 8.89 0)
+				(at -12.7 8.89 0)
 				(length 2.54)
 				(name "CSN_{mcu}"
 					(effects
@@ -3366,7 +3366,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 6.35 0)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "SCK_{mcu}"
 					(effects
@@ -3384,7 +3384,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 3.81 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "MOSI_{mcu}"
 					(effects
@@ -3402,7 +3402,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 1.27 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "MISO_{mcu}"
 					(effects
@@ -3420,7 +3420,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -1.27 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "IRQ_{mcu}"
 					(effects
@@ -3438,7 +3438,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -8.89 0)
+				(at -12.7 -6.35 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3456,7 +3456,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -11.43 0)
+				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "GND"
 					(effects
