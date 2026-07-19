@@ -13,6 +13,142 @@
 		(comment 3 "Author: Oxebots Team")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1602,7 +1738,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N47xxA"
+		(symbol "Diode:ZMMxx"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1624,7 +1760,7 @@
 					)
 				)
 			)
-			(property "Value" "1N47xxA"
+			(property "Value" "ZMMxx"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1634,7 +1770,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1645,7 +1781,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/zmm1.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1656,7 +1792,7 @@
 					)
 				)
 			)
-			(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+			(property "Description" "500mW Zener Diode, MiniMELF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1678,7 +1814,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*MiniMELF*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1689,7 +1825,7 @@
 					)
 				)
 			)
-			(symbol "1N47xxA_0_1"
+			(symbol "ZMMxx_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
@@ -1727,7 +1863,7 @@
 					)
 				)
 			)
-			(symbol "1N47xxA_1_1"
+			(symbol "ZMMxx_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1767,7 +1903,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2SC1945"
+		(symbol "oxebots:2SC945"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1788,7 +1924,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2SC1945"
+			(property "Value" "2SC945"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1799,7 +1935,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1812,7 +1948,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1824,7 +1960,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+			(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1857,7 +1993,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RF Power NPN Transistor"
+			(property "ki_keywords" "Bipolar NPN Transistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1868,7 +2004,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1879,7 +2015,7 @@
 					)
 				)
 			)
-			(symbol "2SC1945_0_1"
+			(symbol "2SC945_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1916,7 +2052,7 @@
 					)
 				)
 			)
-			(symbol "2SC1945_1_1"
+			(symbol "2SC945_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3210,6 +3346,30 @@
 		(uuid "10e06bcf-90fe-49d9-9d6e-c18a0753b8af")
 	)
 	(junction
+		(at 264.16 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13eb042f-e145-427a-be0b-ca05335be299")
+	)
+	(junction
+		(at 39.37 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16eeeeb0-4b3a-4058-99ba-2b34082abfd2")
+	)
+	(junction
+		(at 196.85 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18341461-d0ff-412f-8660-191df4f2603a")
+	)
+	(junction
+		(at 39.37 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b6d387-0dde-4d09-813e-7cbdc4f87d72")
+	)
+	(junction
 		(at 224.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3264,6 +3424,12 @@
 		(uuid "394b4dcd-0169-4910-a0a9-c37def5f93e4")
 	)
 	(junction
+		(at 227.33 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d837682-dd93-46f3-95aa-7e1a9b3ccb8d")
+	)
+	(junction
 		(at 110.49 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3300,6 +3466,12 @@
 		(uuid "46821e22-3dbb-4f19-9177-ca1d41a3c0ef")
 	)
 	(junction
+		(at 64.77 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a07912-dbc1-43ee-8ef8-f7c99085fecd")
+	)
+	(junction
 		(at 163.83 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3324,22 +3496,10 @@
 		(uuid "6dca1718-423c-4706-bc74-932d0f562bc9")
 	)
 	(junction
-		(at 27.94 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77d23381-427d-4ba8-b57a-ebccac4dd7f4")
-	)
-	(junction
 		(at 97.79 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a168c7b-0b71-4a97-8528-f79c865ba171")
-	)
-	(junction
-		(at 93.98 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f7447e1-4fb7-4c74-897e-7323df8b017c")
 	)
 	(junction
 		(at 175.26 63.5)
@@ -3378,12 +3538,6 @@
 		(uuid "9fe96335-9586-444a-be31-6d0ae5ab0bf3")
 	)
 	(junction
-		(at 160.02 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2143641-0ae6-408a-85ad-dfa61582aa53")
-	)
-	(junction
 		(at 135.89 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3400,6 +3554,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8dea932-4e3d-4d3f-a883-c2f04fef0dee")
+	)
+	(junction
+		(at 130.81 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa13d6eb-1c70-4c5f-9a96-ffd76e08e7cb")
+	)
+	(junction
+		(at 171.45 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aee828de-1f30-45c7-acaf-3b407e0e75db")
 	)
 	(junction
 		(at 231.14 97.79)
@@ -3438,6 +3604,12 @@
 		(uuid "bf2bf5db-2ecc-44fd-b4a2-488059fada7e")
 	)
 	(junction
+		(at 105.41 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf429713-e265-4906-a8e1-bbcde578b945")
+	)
+	(junction
 		(at 39.37 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3450,22 +3622,34 @@
 		(uuid "d96e660b-4ad9-4a7b-9aac-b4285b8353f4")
 	)
 	(junction
+		(at 238.76 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc870cb7-845b-41bc-9092-1ef470ccfcae")
+	)
+	(junction
+		(at 27.94 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebe74fe7-0847-44a7-94d6-c767d1279975")
+	)
+	(junction
 		(at 110.49 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed20fc34-293a-4eb8-86e3-bf1b4c9ccbbd")
 	)
 	(junction
-		(at 227.33 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f04cccf2-e60e-48b8-8a1e-b1064e0d5575")
-	)
-	(junction
 		(at 163.83 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0c3d917-c0cb-431b-933f-f888e46ec808")
+	)
+	(junction
+		(at 93.98 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3197a3b-ba3c-4246-bec8-d685c1454a5b")
 	)
 	(junction
 		(at 107.95 82.55)
@@ -3479,6 +3663,12 @@
 		(color 0 0 0 0)
 		(uuid "fe17d909-2306-474a-a379-74937817c0f5")
 	)
+	(junction
+		(at 160.02 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fed6de87-1a61-4d31-9e3e-40f3dbeb3de2")
+	)
 	(wire
 		(pts
 			(xy 93.98 97.79) (xy 93.98 96.52)
@@ -3488,6 +3678,16 @@
 			(type default)
 		)
 		(uuid "0330412f-56b0-48a9-bad1-c5a24f7dc7e1")
+	)
+	(wire
+		(pts
+			(xy 116.84 146.05) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a87eb0-747c-4afb-a478-82c8a6823ab6")
 	)
 	(wire
 		(pts
@@ -3501,6 +3701,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 83.82) (xy 227.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0555cb3b-1bfb-4564-aab1-eda6ff9b9080")
+	)
+	(wire
+		(pts
 			(xy 241.3 87.63) (xy 241.3 82.55)
 		)
 		(stroke
@@ -3508,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "07d44454-c3a6-4bfa-93aa-28d9b94c703b")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0910ddc0-d4bd-4073-9fbc-64cde9b260bc")
 	)
 	(wire
 		(pts
@@ -3608,6 +3828,16 @@
 			(type default)
 		)
 		(uuid "106d3288-4961-4941-9d01-b13e8c858bf9")
+	)
+	(wire
+		(pts
+			(xy 107.95 144.78) (xy 110.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115e839d-9cbc-4da4-b4d5-0e1e9ffa51e2")
 	)
 	(wire
 		(pts
@@ -3831,6 +4061,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 160.02) (xy 36.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29558b4c-47eb-4414-bd9b-78bf545d7fc8")
+	)
+	(wire
+		(pts
 			(xy 167.64 107.95) (xy 167.64 109.22)
 		)
 		(stroke
@@ -3851,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 64.77 111.76)
+			(xy 64.77 92.71) (xy 64.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3881,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 87.63) (xy 93.98 87.63)
+			(xy 88.9 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3941,6 +4181,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 167.64) (xy 39.37 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cbbbce-9478-4a3d-b90e-c4c6694cea91")
+	)
+	(wire
+		(pts
 			(xy 93.98 97.79) (xy 97.79 97.79)
 		)
 		(stroke
@@ -3958,6 +4208,16 @@
 			(type default)
 		)
 		(uuid "3aaf908d-cd89-48d5-aa42-56465b97b3dc")
+	)
+	(wire
+		(pts
+			(xy 227.33 83.82) (xy 227.33 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adaa12e-40ae-468a-8b16-028cfbc91601")
 	)
 	(wire
 		(pts
@@ -3981,6 +4241,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 162.56) (xy 110.49 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2b52fb-e2e3-4ce0-9947-ad70760739ac")
+	)
+	(wire
+		(pts
 			(xy 106.68 166.37) (xy 110.49 166.37)
 		)
 		(stroke
@@ -4001,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 87.63) (xy 27.94 87.63)
+			(xy 22.86 87.63) (xy 27.94 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4071,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 92.71) (xy 264.16 111.76)
+			(xy 264.16 92.71) (xy 264.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4221,6 +4491,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555b49f3-b7c7-4c94-bda1-981164abb7ee")
+	)
+	(wire
+		(pts
 			(xy 127 106.68) (xy 128.27 106.68)
 		)
 		(stroke
@@ -4251,6 +4531,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 166.37) (xy 31.75 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b06285d-b568-44f3-a7a9-8059bc31e94e")
+	)
+	(wire
+		(pts
 			(xy 128.27 115.57) (xy 128.27 116.84)
 		)
 		(stroke
@@ -4258,6 +4548,26 @@
 			(type default)
 		)
 		(uuid "5ca0a984-56bc-4d22-84ad-adb010181cc5")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cea3507-74c0-4202-acf1-0b90bab39403")
+	)
+	(wire
+		(pts
+			(xy 21.59 83.82) (xy 27.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d22b8fb-a0f6-49f0-9eca-804eea45b379")
 	)
 	(wire
 		(pts
@@ -4381,13 +4691,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 111.76) (xy 39.37 80.01)
+			(xy 39.37 111.76) (xy 39.37 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68751a40-cb1f-458f-a2df-f4827f4f89f4")
+	)
+	(wire
+		(pts
+			(xy 39.37 95.25) (xy 39.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692446ab-79f8-4675-97e9-b41f018996d5")
 	)
 	(wire
 		(pts
@@ -4421,6 +4741,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 95.25) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf93326-5a8c-47c7-a817-cd3dad4761c8")
+	)
+	(wire
+		(pts
 			(xy 107.95 82.55) (xy 111.76 82.55)
 		)
 		(stroke
@@ -4451,7 +4781,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 130.81 111.76)
+			(xy 130.81 92.71) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4551,6 +4881,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 95.25) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cebb170-457d-415b-afdf-7d8d0486fd8b")
+	)
+	(wire
+		(pts
 			(xy 224.79 63.5) (xy 224.79 68.58)
 		)
 		(stroke
@@ -4601,6 +4941,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 83.82) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9e5c23-2015-4fa1-bd40-afcbb6e28251")
+	)
+	(wire
+		(pts
 			(xy 231.14 86.36) (xy 231.14 87.63)
 		)
 		(stroke
@@ -4618,6 +4968,16 @@
 			(type default)
 		)
 		(uuid "805fef98-ff22-4a79-89e7-cff9f5ef6b65")
+	)
+	(wire
+		(pts
+			(xy 196.85 95.25) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806e0ef2-b63e-4623-8b2e-bee5c9202437")
 	)
 	(wire
 		(pts
@@ -4701,6 +5061,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 95.25) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8beea204-79ae-4b15-8da2-ad24f710f573")
+	)
+	(wire
+		(pts
 			(xy 31.75 96.52) (xy 31.75 97.79)
 		)
 		(stroke
@@ -4731,7 +5101,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 111.76) (xy 171.45 80.01)
+			(xy 171.45 111.76) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4821,6 +5191,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 171.45) (xy 110.49 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4d6c68-de06-45a9-a930-4053757b2975")
+	)
+	(wire
+		(pts
+			(xy 110.49 162.56) (xy 110.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eab0092-1972-4783-9a6e-e2b345153b81")
+	)
+	(wire
+		(pts
 			(xy 243.84 111.76) (xy 238.76 111.76)
 		)
 		(stroke
@@ -4868,6 +5258,16 @@
 			(type default)
 		)
 		(uuid "a660cd00-95b2-40ff-80ed-17de591334d4")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72b9e1e-e8de-43dc-bc68-2eff7f37c7d0")
 	)
 	(wire
 		(pts
@@ -4951,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 111.76) (xy 105.41 80.01)
+			(xy 105.41 111.76) (xy 105.41 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4961,13 +5361,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 160.02 87.63)
+			(xy 154.94 87.63) (xy 160.02 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac26b499-fdbc-42a2-b172-b0f8b50a9a71")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4b0b16-900c-4ff3-aa0a-ab2dda6c6bf0")
 	)
 	(wire
 		(pts
@@ -5041,6 +5451,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 83.82) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3dcd700-80ce-4b9d-8e31-ac6434f663e0")
+	)
+	(wire
+		(pts
 			(xy 234.95 116.84) (xy 236.22 116.84)
 		)
 		(stroke
@@ -5048,6 +5468,16 @@
 			(type default)
 		)
 		(uuid "b42b2f71-c892-45aa-b72a-51e6a18ea773")
+	)
+	(wire
+		(pts
+			(xy 256.54 95.25) (xy 264.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b910b854-5d08-4ef2-bff5-a18e49ce8522")
 	)
 	(wire
 		(pts
@@ -5081,7 +5511,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 111.76) (xy 238.76 80.01)
+			(xy 107.95 153.67) (xy 110.49 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4e0d6f-075f-43d4-bdcb-2d8c53f03045")
+	)
+	(wire
+		(pts
+			(xy 238.76 111.76) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5121,6 +5561,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 153.67) (xy 110.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c056f6dc-62b3-4362-82ee-66fba9405459")
+	)
+	(wire
+		(pts
 			(xy 97.79 99.06) (xy 97.79 97.79)
 		)
 		(stroke
@@ -5141,6 +5591,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 144.78) (xy 110.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ebcc12-4475-4fc1-98e3-f2a719edeba4")
+	)
+	(wire
+		(pts
 			(xy 27.94 97.79) (xy 31.75 97.79)
 		)
 		(stroke
@@ -5151,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 92.71) (xy 196.85 111.76)
+			(xy 196.85 92.71) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5211,6 +5671,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 142.24) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb6aa79-4af6-4109-9bb5-08ed8e519ab0")
+	)
+	(wire
+		(pts
+			(xy 93.98 83.82) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb416e0-32e9-4cf0-a792-0f99d8f02e7b")
+	)
+	(wire
+		(pts
 			(xy 91.44 63.5) (xy 91.44 68.58)
 		)
 		(stroke
@@ -5238,6 +5718,16 @@
 			(type default)
 		)
 		(uuid "cf1f1739-a501-4176-8279-f650aaf1355f")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13e647a-506d-411c-9eb7-fe8a7c1008cb")
 	)
 	(wire
 		(pts
@@ -5278,6 +5768,16 @@
 			(type default)
 		)
 		(uuid "d66f59b8-ba56-4e64-91d1-951f06571bfb")
+	)
+	(wire
+		(pts
+			(xy 189.23 95.25) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d822f63c-4644-452e-9ef1-b1b53fa5d577")
 	)
 	(wire
 		(pts
@@ -5361,6 +5861,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 83.82) (xy 27.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e459f579-f7c5-4c5a-afab-90a367614c23")
+	)
+	(wire
+		(pts
+			(xy 238.76 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47ce716-9224-4365-b71b-de4a91a57011")
+	)
+	(wire
+		(pts
 			(xy 58.42 167.64) (xy 54.61 167.64)
 		)
 		(stroke
@@ -5388,6 +5908,16 @@
 			(type default)
 		)
 		(uuid "e7b0adea-464b-45dc-a29d-ddc629dacd4c")
+	)
+	(wire
+		(pts
+			(xy 107.95 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadae43e-9dac-4d4f-a913-f7bc5d7f6b21")
 	)
 	(wire
 		(pts
@@ -5561,13 +6091,33 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 87.63) (xy 227.33 87.63)
+			(xy 220.98 87.63) (xy 227.33 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f988614c-8fbe-486f-82ee-7b1fd7e939b9")
+	)
+	(wire
+		(pts
+			(xy 238.76 95.25) (xy 238.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e601a4-17ef-469d-a2d2-e0e3f1c3bb3a")
+	)
+	(wire
+		(pts
+			(xy 264.16 95.25) (xy 264.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4b7e76-234a-4e09-96ed-dd9d04eabecb")
 	)
 	(wire
 		(pts
@@ -5588,6 +6138,16 @@
 			(type default)
 		)
 		(uuid "fc3e6060-3f06-4dd3-8914-4dffbd3e5d52")
+	)
+	(wire
+		(pts
+			(xy 64.77 95.25) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff58c455-2a50-4345-9fc0-7a2b5af8a6ed")
 	)
 	(wire
 		(pts
@@ -5634,7 +6194,7 @@
 	)
 	(hierarchical_label "M1_{FB}"
 		(shape output)
-		(at 24.13 87.63 180)
+		(at 22.86 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5700,7 +6260,7 @@
 	)
 	(hierarchical_label "M2_{FB}"
 		(shape output)
-		(at 90.17 87.63 180)
+		(at 88.9 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5722,7 +6282,7 @@
 	)
 	(hierarchical_label "M4_{FB}"
 		(shape output)
-		(at 223.52 87.63 180)
+		(at 220.98 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5744,7 +6304,7 @@
 	)
 	(hierarchical_label "M3_{FB}"
 		(shape output)
-		(at 156.21 87.63 180)
+		(at 154.94 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5809,7 +6369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02412235-1d63-4571-8b60-b4098acb08d6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 41.91 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5869,7 +6429,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5887,7 +6447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06070781-b93e-4d99-a73b-d4744582eef2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR041"
 			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +6507,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR054")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5964,7 +6524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "076f12cf-9b64-48f1-b329-429e1daca01c")
-		(property "Reference" "R10"
+		(property "Reference" "R16"
 			(at 178.308 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5986,7 +6546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.514 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -6028,7 +6588,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R10")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6046,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1b6df4-c799-4813-b4e3-0516229fcbba")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR027"
 			(at 91.44 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6106,7 +6666,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR011")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6125,7 +6685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103e1348-1a9b-46f0-8d69-4127e6e71183")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 220.98 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,7 +6749,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6207,7 +6767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12c049a5-d2f3-4a40-8cd7-df7c192216dc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR024"
 			(at 44.45 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6267,14 +6827,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR08")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 67.31 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -6307,7 +6867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 72.39 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -6320,7 +6880,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 67.31 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6332,7 +6892,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 67.31 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6395,7 +6955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a06968-9a1a-414b-b4a0-22efbfcfc635")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR023"
 			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6455,7 +7015,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR07")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6472,7 +7032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17c131fd-e76f-4cf9-8aec-60e0647d3130")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 46.228 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +7054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.434 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -6536,7 +7096,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6555,7 +7115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d56770a-a818-4562-9686-4d21b9bbb560")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 21.59 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,7 +7179,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C1")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 189.23 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "225bd863-242e-4412-9d25-d81a0666903a")
+		(property "Reference" "TP24"
+			(at 185.928 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 185.42 95.5676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 184.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 189.23 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "599feb31-a752-4e75-96b0-2e6cdaeb3e5f")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -6636,7 +7275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "243ab084-af4c-4e05-89e3-60ad76644252")
-		(property "Reference" "R15"
+		(property "Reference" "R23"
 			(at 258.826 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +7295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.636 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +7337,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R15")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6716,7 +7355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26db1ad8-a0c6-4f29-8305-c62aba5d177d")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR028"
 			(at 97.79 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +7415,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR051")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6884,7 +7523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2989c85a-40df-4c58-8e46-56a461f55fce")
-		(property "Reference" "R13"
+		(property "Reference" "R21"
 			(at 232.156 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6904,7 +7543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 235.966 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -6946,14 +7585,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R13")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
+		(lib_id "Diode:ZMMxx")
 		(at 160.02 92.71 90)
 		(mirror x)
 		(unit 1)
@@ -6975,7 +7614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4728A"
+		(property "Value" "ZMM3V3"
 			(at 157.48 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6986,7 +7625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 164.465 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/zmm1.pdf"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7008,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+		(property "Description" "500mW Zener Diode, MiniMELF"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7046,7 +7685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b863001-71a2-41e9-bbd7-19c4e5676864")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 48.26 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,7 +7789,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7168,7 +7807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0441b9-f6de-4b99-b755-d7b63b83c7a9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR044"
 			(at 201.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7228,7 +7867,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR026")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 107.95 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f96ab01-f36d-48d8-8143-982acd338faf")
+		(property "Reference" "TP15"
+			(at 108.204 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 107.6324 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 107.95 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "998043fc-21c5-4d9a-9b2f-8e59853b747c")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -7245,7 +7963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "339c4838-16bf-436b-960d-f289410709d7")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 98.806 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,7 +7983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.616 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -7307,7 +8025,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7324,7 +8042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "386be6e7-ad4b-499c-8999-bddafefd6184")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR040"
 			(at 175.26 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7385,7 +8103,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR021")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7404,7 +8122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b05ab95-c8e5-4ed4-b57a-e198171236b0")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 153.67 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +8186,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7486,7 +8204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f6ebd56-11cb-4b0f-9225-738a866d02de")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR050"
 			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7546,7 +8264,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR031")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7564,7 +8282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e676d5-ce29-4a6c-b1b2-b2ca0d6017e9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR036"
 			(at 135.89 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7624,7 +8342,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR019")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7714,7 +8432,86 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
+		(lib_id "Connector:TestPoint_Probe")
+		(at 180.34 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41d00138-2066-4286-87a8-d6d27dd9b672")
+		(property "Reference" "TP23"
+			(at 180.086 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 180.6576 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 180.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 180.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c85c6e19-7631-41d4-b447-78fe329adfde")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ZMMxx")
 		(at 227.33 92.71 90)
 		(mirror x)
 		(unit 1)
@@ -7736,7 +8533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4728A"
+		(property "Value" "ZMM3V3"
 			(at 224.79 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7747,7 +8544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 231.775 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +8555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/zmm1.pdf"
 			(at 227.33 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7769,7 +8566,7 @@
 				)
 			)
 		)
-		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+		(property "Description" "500mW Zener Diode, MiniMELF"
 			(at 227.33 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +8603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4438862d-007b-42a0-b0b9-d82409ca744f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR022"
 			(at 43.18 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +8664,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR05")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7885,7 +8682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490bdcd5-3422-40ae-bae9-8130b6b1ec80")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR019"
 			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7945,7 +8742,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR04")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7963,7 +8760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49745e73-00f7-47d9-9a31-5a0b6994475c")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR046"
 			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8023,14 +8820,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR055")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 107.95 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -8063,7 +8860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 113.03 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -8076,7 +8873,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 107.95 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8088,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 107.95 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 173.99 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -8173,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 179.07 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -8186,7 +8983,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 173.99 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8198,7 +8995,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 173.99 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8260,7 +9057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58220d0c-1c5f-4a63-80eb-30e2a95695ee")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 191.516 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +9077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.326 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +9119,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8339,7 +9136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59ebe50c-9316-4acf-b6e2-ce4c4d75460a")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 164.846 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,7 +9156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.656 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -8401,7 +9198,165 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R9")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 107.95 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62427559-5a6e-4ac1-8e25-e81e150cd418")
+		(property "Reference" "TP16"
+			(at 108.204 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 107.6324 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 107.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 107.95 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3106c00-7d77-4854-91f8-bd1e1143aa95")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 21.59 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6662e7c0-d652-433c-8385-2075d0fc54e5")
+		(property "Reference" "TP9"
+			(at 21.59 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 21.2724 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 21.59 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 21.59 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfe242f9-ac98-4847-afbc-4eb949f1532c")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8420,7 +9375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6820f4ae-ded6-4e51-85ae-6c7277ee9b87")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 87.63 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8484,7 +9439,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8501,7 +9456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6994c9d8-1ec0-43c8-87f3-e02de4263f68")
-		(property "Reference" "R18"
+		(property "Reference" "R2"
 			(at 33.528 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8523,7 +9478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 30.734 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -8565,7 +9520,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R18")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8582,7 +9537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6afdd075-e2fe-4bda-8ee9-4ed2b632b196")
-		(property "Reference" "R16"
+		(property "Reference" "R24"
 			(at 271.018 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8604,7 +9559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 268.224 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -8646,7 +9601,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R16")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8664,7 +9619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b623414-3dc5-439b-aff5-bfe481e5065b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR039"
 			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8724,7 +9679,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR020")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 87.63 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e0f042d-8742-4564-8aec-c0d63f6d2e3c")
+		(property "Reference" "TP14"
+			(at 87.63 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 87.3124 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 87.63 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 87.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16b0acaf-9af3-452a-8642-2c0c361a4014")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8741,7 +9775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74a3c644-1460-45f3-8dc4-9b01f0ac6c35")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 112.268 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,7 +9797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.474 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -8805,14 +9839,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 266.7 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -8845,7 +9879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 271.78 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +9892,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 266.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +9904,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 266.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8932,7 +9966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76dc5291-3edc-45b5-8ab1-a9502d46bc13")
-		(property "Reference" "R21"
+		(property "Reference" "R13"
 			(at 165.608 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8954,7 +9988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.814 82.296 90)
 			(hide yes)
 			(show_name no)
@@ -8996,7 +10030,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R21")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9098,7 +10132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "793404a5-e51b-4237-b134-a11fb50d085f")
-		(property "Reference" "R19"
+		(property "Reference" "R7"
 			(at 99.568 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +10154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.774 82.296 90)
 			(hide yes)
 			(show_name no)
@@ -9162,7 +10196,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R19")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 219.71 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a5d31db-7b8b-41b6-bdba-77a90a558257")
+		(property "Reference" "TP25"
+			(at 219.71 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 219.3924 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 219.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 219.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0512699e-ef94-4a82-b4e2-8a77895a1c28")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -9271,7 +10384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eff3ce2-6f0a-461f-98dc-d99af677c2f8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR042"
 			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9331,7 +10444,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR024")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9349,7 +10462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81244d28-7784-4f46-b658-7a87193f195c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR037"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9409,14 +10522,93 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR014")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
+		(lib_id "Connector:TestPoint_Probe")
+		(at 114.3 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "819834dd-cea3-4525-a0a6-4958c2f72381")
+		(property "Reference" "TP19"
+			(at 114.046 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 114.6176 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 114.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 114.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2d238dc-62fe-4a82-8475-33fdf831cef4")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ZMMxx")
 		(at 27.94 92.71 90)
 		(mirror x)
 		(unit 1)
@@ -9438,7 +10630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4728A"
+		(property "Value" "ZMM3V3"
 			(at 25.4 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9449,7 +10641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 32.385 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9460,7 +10652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/zmm1.pdf"
 			(at 27.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9471,7 +10663,7 @@
 				)
 			)
 		)
-		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+		(property "Description" "500mW Zener Diode, MiniMELF"
 			(at 27.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9509,7 +10701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85de5c4b-a286-4748-b981-efb5ffbe0004")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 116.84 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9521,7 +10713,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 116.84 162.56 90)
+			(at 119.126 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9531,7 +10723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9573,7 +10765,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9591,7 +10783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86610b82-3ee0-4371-bf62-79a1ed2334c3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR035"
 			(at 135.89 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9651,7 +10843,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR018")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9668,7 +10860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88158544-ecb4-416a-8eab-8f49386f4ef2")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 137.668 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9690,7 +10882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.874 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -9732,14 +10924,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
+		(lib_id "Diode:ZMMxx")
 		(at 93.98 92.71 90)
 		(mirror x)
 		(unit 1)
@@ -9761,7 +10953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4728A"
+		(property "Value" "ZMM3V3"
 			(at 91.44 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9772,7 +10964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 98.425 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9783,7 +10975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/zmm1.pdf"
 			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9794,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+		(property "Description" "500mW Zener Diode, MiniMELF"
 			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9832,7 +11024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b0b1587-7c34-4bab-91d3-2a0ca8d9c56f")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 116.84 183.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9844,7 +11036,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 116.84 180.594 90)
+			(at 119.126 181.102 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9854,7 +11046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9896,7 +11088,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C8")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 31.75 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c131a13-6d2a-454a-b899-c45e59d4aa50")
+		(property "Reference" "TP10"
+			(at 32.004 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 31.4324 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 31.75 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc71bcf4-8a1d-437e-a5aa-fa29e21252e5")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9914,7 +11185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c56275f-3f61-4b5b-857d-d507f50f6ae7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR026"
 			(at 69.85 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9974,7 +11245,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR010")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 153.67 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dbb3efd-687c-49b5-9df1-937446d64fdd")
+		(property "Reference" "TP22"
+			(at 153.67 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 153.3524 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 153.67 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2579cd53-6488-49a7-80b7-6b4624670e43")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -9991,7 +11341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90dc5be4-6d07-4114-aa16-7d80a940f1dd")
-		(property "Reference" "R17"
+		(property "Reference" "R1"
 			(at 33.528 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10013,7 +11363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 30.734 82.296 90)
 			(hide yes)
 			(show_name no)
@@ -10055,7 +11405,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R17")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10073,7 +11423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "958dfbf0-752d-4dbd-af3e-ab58febb6081")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR043"
 			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10133,7 +11483,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR025")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10234,7 +11584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a3d2492-6f2d-4043-91b8-f1420ae6e846")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR020"
 			(at 31.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10294,7 +11644,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR050")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10311,7 +11661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aadf5f8-6217-4de1-bfa4-09cde3184792")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR048"
 			(at 242.57 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10372,7 +11722,165 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR027")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 116.84 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b5934a4-cc6e-44d9-bfc8-b7380dba40e0")
+		(property "Reference" "TP20"
+			(at 117.602 137.414 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 116.5224 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 116.84 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69b0194f-911f-430f-b52a-e3358d14656f")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 247.65 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c06200e-3e98-4824-b31d-a82803796064")
+		(property "Reference" "TP26"
+			(at 247.396 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 247.9676 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 247.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97f8a83e-55f8-447a-abd6-da8a53243774")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -10389,7 +11897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d17e419-6e32-4098-9fc4-65c82e919ba8")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 125.476 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,7 +11917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.286 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +11959,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10469,7 +11977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d790dca-77e8-4ef3-8e14-e30f8a44d886")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 116.586 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10481,7 +11989,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 116.586 153.924 90)
+			(at 118.872 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10491,7 +11999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10533,14 +12041,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 241.3 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -10573,7 +12081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 246.38 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -10586,7 +12094,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 241.3 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10598,7 +12106,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 241.3 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10661,7 +12169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ffe1feb-4498-4afc-855b-5299e54a182f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR034"
 			(at 123.19 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10722,7 +12230,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR017")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10740,7 +12248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2649388-c196-467c-af89-6ce6558b08f8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR033"
 			(at 119.38 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10801,7 +12309,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR016")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10819,7 +12327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ca96c6-3bd5-40a9-baad-d36f75610035")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR047"
 			(at 241.3 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10879,7 +12387,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR023")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10896,7 +12404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8efe88c-9f54-460e-8494-57d10458e869")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR030"
 			(at 109.22 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10957,7 +12465,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR013")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10974,7 +12482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a95e65e8-55b3-427a-8cbe-f63a4b614be0")
-		(property "Reference" "R14"
+		(property "Reference" "R22"
 			(at 245.618 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10996,7 +12504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.824 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -11038,7 +12546,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R14")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11055,7 +12563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aab2cda8-c2f8-457a-808e-0e303416de0e")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 232.918 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +12585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.124 82.296 90)
 			(hide yes)
 			(show_name no)
@@ -11119,7 +12627,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11136,7 +12644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad8a1eae-5943-4244-9e98-1d82f51fbef9")
-		(property "Reference" "R20"
+		(property "Reference" "R8"
 			(at 99.568 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11158,7 +12666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.774 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -11200,7 +12708,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R20")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11392,7 +12900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1ec6eb-5a27-4f53-a587-3cf680d4c62e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR052"
 			(at 269.24 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11452,7 +12960,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR033")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11470,7 +12978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0a63ac-97c4-451a-81bd-bdec6ce7d448")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR049"
 			(at 243.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11530,7 +13038,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR030")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 123.19 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2de60ee-83f1-456a-b5c9-7b5f61d65eb4")
+		(property "Reference" "TP21"
+			(at 119.888 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 119.38 95.5676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 118.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0002d5d3-abd8-4aaf-8d9a-f7e2af7531b0")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -11548,7 +13135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41fcc6e-4ed7-4878-ae11-05d52f2564a4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR031"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11608,7 +13195,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR052")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11698,6 +13285,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 57.15 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5f7c879-f268-4324-a044-86fbf41d1b5f")
+		(property "Reference" "TP13"
+			(at 53.848 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 53.34 95.5676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 57.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "818ea714-f448-40d6-93ab-2dfc15193e7f")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 69.85 107.95 180)
 		(unit 1)
@@ -11708,7 +13374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c70746c2-7616-43a3-b2d1-71c384e93605")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 71.628 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11730,7 +13396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.834 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -11772,7 +13438,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R4")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 256.54 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c84a5b8a-1d9f-463d-8a95-4bcc6132ff6c")
+		(property "Reference" "TP27"
+			(at 253.238 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 252.73 95.5676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaff05b1-e20b-4c49-87ea-f758acf90186")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -11790,7 +13535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88d5cd0-d1dc-4850-9f52-d66d71454cd4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR025"
 			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11850,7 +13595,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR09")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 31.75 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9200434-a72a-49b8-9334-af342a942dd3")
+		(property "Reference" "TP11"
+			(at 32.004 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 31.4324 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 31.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 31.75 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78c95810-892d-4749-92fc-5c684025b3d5")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -11953,7 +13777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3240f1-6c8a-4a26-9918-f6698060b51a")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 116.84 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11965,7 +13789,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 116.84 171.45 90)
+			(at 119.126 171.958 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11975,7 +13799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12017,7 +13841,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12035,7 +13859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf689413-a174-4eec-a7e5-175be0ff1991")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR029"
 			(at 107.95 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12095,7 +13919,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR012")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12113,7 +13937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05a6e71-3326-4014-936b-db25a507e2d4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR051"
 			(at 269.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12173,7 +13997,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR032")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -12276,7 +14100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5543c4b-3701-4fa6-9064-f1ba010504a1")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 172.212 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12298,7 +14122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.91 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -12340,14 +14164,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 41.91 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -12380,7 +14204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 46.99 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -12393,7 +14217,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 41.91 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12405,7 +14229,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 41.91 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12468,7 +14292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9258f33-6469-402e-a7dd-b2c808e592d9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR045"
 			(at 224.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12528,7 +14352,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR022")
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 107.95 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de28151d-5e08-4d7f-9de0-e0a1c5d0b842")
+		(property "Reference" "TP17"
+			(at 108.204 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 107.6324 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fabcb56-ac13-46a7-bd29-a7bae1bf6a2b")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -12546,7 +14449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e22369b7-5c66-49f5-a825-536ff554248c")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 106.172 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12568,7 +14471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.87 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -12610,7 +14513,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12627,7 +14530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e26bb844-a2e4-4cee-b45c-98b0e79c8029")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 32.766 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12647,7 +14550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -12689,7 +14592,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R1")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 107.95 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2ac1d91-b07b-4157-87d3-893a3de225a5")
+		(property "Reference" "TP18"
+			(at 108.204 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 107.6324 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 107.95 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58c762be-1f50-4e40-9326-de951ae2082f")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -12707,7 +14689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3d037c5-a5d6-4407-b7d9-811392033540")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR038"
 			(at 163.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12767,7 +14749,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR053")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12784,7 +14766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6b1300d-43fe-45eb-845c-d3d1524d7a1e")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 203.708 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +14788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.914 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -12848,7 +14830,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12865,7 +14847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e93f2de2-c112-42a4-8dc3-da87579de60b")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 59.436 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12885,7 +14867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.246 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -12927,7 +14909,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12944,7 +14926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef2d04bd-609b-44ab-a55b-9768ed9f4553")
-		(property "Reference" "R22"
+		(property "Reference" "R14"
 			(at 165.608 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12966,7 +14948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.814 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -13008,7 +14990,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R22")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13026,7 +15008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f070fa0d-becf-4c80-beb4-de2de1303c2d")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 239.522 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13048,7 +15030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 236.22 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -13090,14 +15072,14 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 199.39 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -13130,7 +15112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 204.47 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -13143,7 +15125,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 199.39 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13155,7 +15137,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 199.39 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13207,7 +15189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1945")
+		(lib_id "oxebots:2SC945")
 		(at 133.35 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -13240,7 +15222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 138.43 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -13253,7 +15235,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://rtellason.com/transdata/2sc1945.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8921/4491_2SC945.pdf"
 			(at 133.35 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13265,7 +15247,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220"
+		(property "Description" "150mA Ic, 50V Vce, Silicon 200MHz Signal NPN Transistors, TO-92"
 			(at 133.35 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13328,7 +15310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f65152fc-d731-4e23-85dd-a5bd4a6fdeed")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR032"
 			(at 110.49 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13388,7 +15370,86 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR015")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7837aea-cb2c-470f-b9bc-12d89104d283")
+		(property "Reference" "TP12"
+			(at 48.006 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 48.5776 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 48.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "681105ef-77cf-4c8c-94cc-3c6087f1edea")
+		)
+		(instances
+			(project "main"
+				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -13581,7 +15642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdf76828-5107-4dab-a034-eb8c4c233d95")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 232.918 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,7 +15664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.124 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -13645,7 +15706,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13663,7 +15724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe65e47c-096b-442c-8dfe-1a425257f153")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 40.132 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13685,7 +15746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.83 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -13727,7 +15788,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
