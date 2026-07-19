@@ -6369,7 +6369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02412235-1d63-4571-8b60-b4098acb08d6")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 41.91 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6429,7 +6429,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06070781-b93e-4d99-a73b-d4744582eef2")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6507,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6606,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1b6df4-c799-4813-b4e3-0516229fcbba")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 91.44 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6666,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103e1348-1a9b-46f0-8d69-4127e6e71183")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 220.98 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +6749,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6767,7 +6767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12c049a5-d2f3-4a40-8cd7-df7c192216dc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 44.45 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6827,7 +6827,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6955,7 +6955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a06968-9a1a-414b-b4a0-22efbfcfc635")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7015,7 +7015,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7115,7 +7115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d56770a-a818-4562-9686-4d21b9bbb560")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 21.59 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,7 +7179,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "225bd863-242e-4412-9d25-d81a0666903a")
-		(property "Reference" "TP24"
+		(property "Reference" "TP22"
 			(at 185.928 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M3_PWM_Probe"
 			(at 185.42 95.5676 0)
 			(hide yes)
 			(show_name no)
@@ -7219,7 +7219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 184.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7258,7 +7258,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP24")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -7355,7 +7355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26db1ad8-a0c6-4f29-8305-c62aba5d177d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 97.79 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7415,7 +7415,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7444,8 +7444,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BACK_LEFT_MOTOR"
 			(at 142.24 80.8962 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7807,7 +7808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0441b9-f6de-4b99-b755-d7b63b83c7a9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 201.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +7868,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7884,7 +7885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f96ab01-f36d-48d8-8143-982acd338faf")
-		(property "Reference" "TP15"
+		(property "Reference" "TP13"
 			(at 108.204 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M1_ENC_Probe"
 			(at 107.6324 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7946,7 +7947,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP15")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8042,7 +8043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "386be6e7-ad4b-499c-8999-bddafefd6184")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 175.26 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8103,7 +8104,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8122,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b05ab95-c8e5-4ed4-b57a-e198171236b0")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 153.67 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8186,7 +8187,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8204,7 +8205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f6ebd56-11cb-4b0f-9225-738a866d02de")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR056"
 			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8264,7 +8265,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR050")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8282,7 +8283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e676d5-ce29-4a6c-b1b2-b2ca0d6017e9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 135.89 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8342,7 +8343,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8442,7 +8443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41d00138-2066-4286-87a8-d6d27dd9b672")
-		(property "Reference" "TP23"
+		(property "Reference" "TP21"
 			(at 180.086 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +8454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M3_DIR_Probe"
 			(at 180.6576 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8465,7 +8466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 180.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8504,7 +8505,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP23")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -8603,7 +8604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4438862d-007b-42a0-b0b9-d82409ca744f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 43.18 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8664,7 +8665,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8682,7 +8683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490bdcd5-3422-40ae-bae9-8130b6b1ec80")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8742,7 +8743,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8760,7 +8761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49745e73-00f7-47d9-9a31-5a0b6994475c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8820,7 +8821,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9215,7 +9216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62427559-5a6e-4ac1-8e25-e81e150cd418")
-		(property "Reference" "TP16"
+		(property "Reference" "TP14"
 			(at 108.204 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9226,7 +9227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M2_ENC_Probe"
 			(at 107.6324 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9277,7 +9278,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP16")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -9294,7 +9295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6662e7c0-d652-433c-8385-2075d0fc54e5")
-		(property "Reference" "TP9"
+		(property "Reference" "TP7"
 			(at 21.59 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9305,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M1_FB_Probe"
 			(at 21.2724 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9356,7 +9357,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP9")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9375,7 +9376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6820f4ae-ded6-4e51-85ae-6c7277ee9b87")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 87.63 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9439,7 +9440,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9619,7 +9620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b623414-3dc5-439b-aff5-bfe481e5065b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9679,7 +9680,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9696,7 +9697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e0f042d-8742-4564-8aec-c0d63f6d2e3c")
-		(property "Reference" "TP14"
+		(property "Reference" "TP12"
 			(at 87.63 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9707,7 +9708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M2_FB_Probe"
 			(at 87.3124 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9758,7 +9759,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP14")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10213,7 +10214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a5d31db-7b8b-41b6-bdba-77a90a558257")
-		(property "Reference" "TP25"
+		(property "Reference" "TP23"
 			(at 219.71 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10224,7 +10225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M4_FB_Probe"
 			(at 219.3924 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10236,7 +10237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 219.71 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10275,7 +10276,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP25")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -10304,8 +10305,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BACK_RIGHT_MOTOR"
 			(at 208.28 80.8962 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10384,7 +10386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eff3ce2-6f0a-461f-98dc-d99af677c2f8")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR048"
 			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10446,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10462,7 +10464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81244d28-7784-4f46-b658-7a87193f195c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10522,7 +10524,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10539,7 +10541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819834dd-cea3-4525-a0a6-4958c2f72381")
-		(property "Reference" "TP19"
+		(property "Reference" "TP17"
 			(at 114.046 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M2_DIR_Probe"
 			(at 114.6176 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10601,7 +10603,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP19")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -10701,7 +10703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85de5c4b-a286-4748-b981-efb5ffbe0004")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 116.84 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10765,7 +10767,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10783,7 +10785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86610b82-3ee0-4371-bf62-79a1ed2334c3")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 135.89 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10843,7 +10845,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b0b1587-7c34-4bab-91d3-2a0ca8d9c56f")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 116.84 183.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11088,7 +11090,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11105,7 +11107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c131a13-6d2a-454a-b899-c45e59d4aa50")
-		(property "Reference" "TP10"
+		(property "Reference" "TP8"
 			(at 32.004 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,7 +11118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "ENC_SDA_Probe"
 			(at 31.4324 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11128,7 +11130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 31.75 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11167,7 +11169,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP10")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11185,7 +11187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c56275f-3f61-4b5b-857d-d507f50f6ae7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 69.85 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11245,7 +11247,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11262,7 +11264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dbb3efd-687c-49b5-9df1-937446d64fdd")
-		(property "Reference" "TP22"
+		(property "Reference" "TP20"
 			(at 153.67 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11273,7 +11275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M3_FB_Probe"
 			(at 153.3524 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11285,7 +11287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11324,7 +11326,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP22")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -11423,7 +11425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "958dfbf0-752d-4dbd-af3e-ab58febb6081")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11483,7 +11485,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11584,7 +11586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a3d2492-6f2d-4043-91b8-f1420ae6e846")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 31.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11644,7 +11646,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11661,7 +11663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aadf5f8-6217-4de1-bfa4-09cde3184792")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 242.57 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11722,7 +11724,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11739,7 +11741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b5934a4-cc6e-44d9-bfc8-b7380dba40e0")
-		(property "Reference" "TP20"
+		(property "Reference" "TP18"
 			(at 117.602 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11750,7 +11752,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "ENC_VCC_Probe"
 			(at 116.5224 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11762,7 +11764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11801,7 +11803,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP20")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -11818,7 +11820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c06200e-3e98-4824-b31d-a82803796064")
-		(property "Reference" "TP26"
+		(property "Reference" "TP24"
 			(at 247.396 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,7 +11831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M4_DIR_Probe"
 			(at 247.9676 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11880,7 +11882,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP26")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -11977,7 +11979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d790dca-77e8-4ef3-8e14-e30f8a44d886")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 116.586 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12041,7 +12043,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12169,7 +12171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ffe1feb-4498-4afc-855b-5299e54a182f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 123.19 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12230,7 +12232,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12248,7 +12250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2649388-c196-467c-af89-6ce6558b08f8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 119.38 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12309,7 +12311,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12327,7 +12329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ca96c6-3bd5-40a9-baad-d36f75610035")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 241.3 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12387,7 +12389,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12404,7 +12406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8efe88c-9f54-460e-8494-57d10458e869")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 109.22 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12465,7 +12467,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12737,8 +12739,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "FRONT_RIGHT_MOTOR"
 			(at 275.59 80.8962 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12900,7 +12903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1ec6eb-5a27-4f53-a587-3cf680d4c62e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 269.24 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12960,7 +12963,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12978,7 +12981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0a63ac-97c4-451a-81bd-bdec6ce7d448")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR055"
 			(at 243.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13038,7 +13041,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR049")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -13055,7 +13058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2de60ee-83f1-456a-b5c9-7b5f61d65eb4")
-		(property "Reference" "TP21"
+		(property "Reference" "TP19"
 			(at 119.888 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13066,7 +13069,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M2_PWM_Probe"
 			(at 119.38 95.5676 0)
 			(hide yes)
 			(show_name no)
@@ -13078,7 +13081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 118.11 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13117,7 +13120,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP21")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -13135,7 +13138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41fcc6e-4ed7-4878-ae11-05d52f2564a4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13195,7 +13198,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13295,7 +13298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5f7c879-f268-4324-a044-86fbf41d1b5f")
-		(property "Reference" "TP13"
+		(property "Reference" "TP11"
 			(at 53.848 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13306,7 +13309,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M1_PWM_Probe"
 			(at 53.34 95.5676 0)
 			(hide yes)
 			(show_name no)
@@ -13357,7 +13360,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP13")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -13455,7 +13458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c84a5b8a-1d9f-463d-8a95-4bcc6132ff6c")
-		(property "Reference" "TP27"
+		(property "Reference" "TP25"
 			(at 253.238 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13466,7 +13469,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M4_PWM_Probe"
 			(at 252.73 95.5676 0)
 			(hide yes)
 			(show_name no)
@@ -13478,7 +13481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 251.46 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13517,7 +13520,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP27")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -13535,7 +13538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88d5cd0-d1dc-4850-9f52-d66d71454cd4")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13595,7 +13598,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13612,7 +13615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9200434-a72a-49b8-9334-af342a942dd3")
-		(property "Reference" "TP11"
+		(property "Reference" "TP9"
 			(at 32.004 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13623,7 +13626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "ENC_SCL_Probe"
 			(at 31.4324 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13635,7 +13638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 31.75 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13674,7 +13677,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP11")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13777,7 +13780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3240f1-6c8a-4a26-9918-f6698060b51a")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 116.84 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13841,7 +13844,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13859,7 +13862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf689413-a174-4eec-a7e5-175be0ff1991")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 107.95 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13919,7 +13922,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13937,7 +13940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05a6e71-3326-4014-936b-db25a507e2d4")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR057"
 			(at 269.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13997,7 +14000,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR051")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -14100,7 +14103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5543c4b-3701-4fa6-9064-f1ba010504a1")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 172.212 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14164,7 +14167,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C14")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -14292,7 +14295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9258f33-6469-402e-a7dd-b2c808e592d9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 224.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14352,7 +14355,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14369,7 +14372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de28151d-5e08-4d7f-9de0-e0a1c5d0b842")
-		(property "Reference" "TP17"
+		(property "Reference" "TP15"
 			(at 108.204 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14380,7 +14383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M3_ENC_Probe"
 			(at 107.6324 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -14392,7 +14395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 107.95 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14431,7 +14434,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP17")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -14449,7 +14452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e22369b7-5c66-49f5-a825-536ff554248c")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 106.172 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14513,7 +14516,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14609,7 +14612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2ac1d91-b07b-4157-87d3-893a3de225a5")
-		(property "Reference" "TP18"
+		(property "Reference" "TP16"
 			(at 108.204 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14620,7 +14623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M4_ENC_Probe"
 			(at 107.6324 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14632,7 +14635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 107.95 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -14671,7 +14674,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP18")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -14689,7 +14692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3d037c5-a5d6-4407-b7d9-811392033540")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 163.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14749,7 +14752,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -15008,7 +15011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f070fa0d-becf-4c80-beb4-de2de1303c2d")
-		(property "Reference" "C16"
+		(property "Reference" "C19"
 			(at 239.522 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15072,7 +15075,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C16")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15310,7 +15313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f65152fc-d731-4e23-85dd-a5bd4a6fdeed")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 110.49 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -15370,7 +15373,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15387,7 +15390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7837aea-cb2c-470f-b9bc-12d89104d283")
-		(property "Reference" "TP12"
+		(property "Reference" "TP10"
 			(at 48.006 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15398,7 +15401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
+		(property "Value" "M1_DIR_Probe"
 			(at 48.5776 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15410,7 +15413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 48.26 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15449,7 +15452,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "TP12")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -15563,8 +15566,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "FRONT_LEFT_MOTOR"
 			(at 76.2 80.8962 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15724,7 +15728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe65e47c-096b-442c-8dfe-1a425257f153")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 40.132 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15788,7 +15792,7 @@
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27/4b7868b1-9bdd-4449-aff1-39c75f08c675"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)

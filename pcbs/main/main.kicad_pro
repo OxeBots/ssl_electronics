@@ -776,7 +776,7 @@
         "uuid": "8ab8953a-1156-4e8b-85bc-154005b38a27"
       }
     ],
-    "used_designators": "Q1-8,U1-3,D1-4,C1-16,#FLG1-4,IMU1,as1-4,#PWR1-55,as5600_1-4,H1-3,J1-4,R1-24,M1-4,TP1-27,PCB1-3",
+    "used_designators": "J1-4,H1-3,M1-4,R1-24,PCB1-3,TP1-28,Q1-8,U1-4,D1-4,C1-19,#FLG1-4,IMU1,as1-4,as5600_1-4,#PWR1-58",
     "variants": []
   },
   "sheets": [
