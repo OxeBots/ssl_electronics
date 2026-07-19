@@ -7490,7 +7490,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_{SPI}"
+	(global_label "CLK_{SPI}"
 		(shape bidirectional)
 		(at 254 127 180)
 		(fields_autoplaced yes)
@@ -8568,6 +8568,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8604,7 +8605,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "43473a46-08d4-42da-a943-fa2e3561a859")
+			(uuid "113cb748-c9a6-472b-902d-9dc19c0645ec")
 		)
 		(instances
 			(project "main"
@@ -8621,7 +8622,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8636,7 +8637,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "+5V"
@@ -8647,7 +8647,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8683,6 +8682,9 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "43473a46-08d4-42da-a943-fa2e3561a859")
+		)
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
@@ -8698,7 +8700,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8711,6 +8713,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -8757,13 +8760,10 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "d927576d-b672-4282-a069-aa8ea8cda3a9")
-		)
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
-					(reference "#PWR042")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9237,7 +9237,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -9706,84 +9706,6 @@
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
 					(reference "PCB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56c35d9e-5440-47c0-9983-43e3b5f44613")
-		(property "Reference" "#PWR051"
-			(at 228.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 230.632 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f22a7c5a-54e8-4104-8ad0-91ae7fed6dd5")
-		)
-		(instances
-			(project "main"
-				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10540,84 +10462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 228.6 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97e62beb-6e0d-4c84-b12e-51bc1e96666d")
-		(property "Reference" "#PWR03"
-			(at 228.6 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 228.6 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5ccd7ff-384d-4570-8351-9529df0bebf9")
-		)
-		(instances
-			(project "main"
-				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 97.79 0)
 		(unit 1)
@@ -10935,84 +10779,6 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 173.99 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a05ed58b-a308-4f24-94dc-276b9a24ec07")
-		(property "Reference" "#PWR047"
-			(at 187.96 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.992 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a5bbb1e-f35b-4db1-b3d0-a4431ad7ea24")
-		)
-		(instances
-			(project "main"
-				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11803,7 +11569,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NRF24L01_1")
 		(lib_id "oxebots:NRF24L01")
 		(at 273.05 132.08 0)
 		(unit 1)
@@ -11986,7 +11751,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11999,6 +11764,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -12009,6 +11775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
@@ -12044,16 +11811,10 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "ea9de807-2568-4a3f-85a4-b36200a4526f")
-		)
-		(pin "1"
-			(uuid "b047b8bc-34fc-4d42-af8a-cbfe98680bc5")
-		)
 		(instances
 			(project "main"
 				(path "/8ab8953a-1156-4e8b-85bc-154005b38a27"
-					(reference "C16")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12143,7 +11904,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12158,7 +11919,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "+3.3V"
@@ -12169,7 +11929,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12204,6 +11963,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "1517a234-ae6b-454e-a9c0-69ac5f0351ab")
 		)
 		(instances
 			(project "main"
@@ -12359,7 +12121,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1517a234-ae6b-454e-a9c0-69ac5f0351ab")
+			(uuid "1b9febb4-7263-4e55-a798-0b6507781178")
 		)
 		(instances
 			(project "main"
@@ -12597,8 +12359,11 @@
 				)
 			)
 		)
+		(pin "2"
+			(uuid "9bbf2e10-0f7c-44f7-aae6-a68ffceec24b")
+		)
 		(pin "1"
-			(uuid "1b9febb4-7263-4e55-a798-0b6507781178")
+			(uuid "af5f0de1-1a81-4de4-9403-b74e3f3bfe72")
 		)
 		(instances
 			(project "main"
