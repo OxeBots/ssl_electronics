@@ -1,4 +1,4 @@
-(footprint "Resistor_RW24_25W"
+(footprint "Resistor_RX24_25W"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Resistor_RW24_25W"
+	(property "Value" "Resistor_RX24_25W"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 4.3,
+          "height": 8.6,
+          "width": 8.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -100,7 +100,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -192,6 +192,7 @@
         0.508,
         0.635,
         0.762,
+        1.016,
         1.27,
         2.0,
         2.54,
@@ -471,7 +472,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "oxebots_transformer",
-      "oxebots_connectors"
+      "oxebots_connectors",
+      "oxebots"
     ],
     "pinned_symbol_libs": [
       "DCT15EFD_U44S003"
@@ -513,7 +515,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -528,10 +530,10 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
