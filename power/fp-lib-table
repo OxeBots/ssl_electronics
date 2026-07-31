@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "oxebots_connectors")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Footprints/oxebots_connectors.pretty")(options "")(descr ""))
-  (lib (name "oxebots")(type "KiCad")(uri "${OXEBOTS_SSL_LIB_DIR}/Footprints/oxebots.pretty")(options "")(descr ""))
-)
