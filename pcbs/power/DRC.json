@@ -1,0 +1,1625 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-29T21:31:02",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "power_board.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 2 [Net-(J9-Pin_2)] de J9",
+                    "pos": {
+                        "x": 121.095891,
+                        "y": 104.09
+                    },
+                    "uuid": "1306d9cc-02ab-466f-9762-d592ffa208f2"
+                },
+                {
+                    "description": "Ilha PTH 1 [Net-(J9-Pin_2)] de TP9",
+                    "pos": {
+                        "x": 131.675,
+                        "y": 87.055
+                    },
+                    "uuid": "19fedbcd-bd6b-4325-9a48-b1bf8d8ca614"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 1 [/B_{6s}] de TP8",
+                    "pos": {
+                        "x": 131.675,
+                        "y": 83.005
+                    },
+                    "uuid": "caa7b736-842d-462b-808a-d0eab97bb861"
+                },
+                {
+                    "description": "Zona [/B_{6s}] no F.Cu, prioridade 2",
+                    "pos": {
+                        "x": 118.674882,
+                        "y": 117.06
+                    },
+                    "uuid": "4266de2f-273a-4a4b-9b1b-70d11a4f9308"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Violação do isolamento ( isolamento 0,2000 mm; atual 0,1014 mm)",
+            "items": [
+                {
+                    "description": "Ilha 2 [GND] de R_ADJ2 no F.Cu",
+                    "pos": {
+                        "x": 94.9836,
+                        "y": 89.618
+                    },
+                    "uuid": "bb776294-2221-43e0-b53e-d384913ba0b2"
+                },
+                {
+                    "description": "Trilha [V_{ BATT}] no F.Cu, comprimento 8,8640 mm",
+                    "pos": {
+                        "x": 98.7504,
+                        "y": 88.3666
+                    },
+                    "uuid": "d725cc3e-2dd4-4a68-9558-372c78f3feb7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Violação do isolamento ( isolamento 0,2000 mm; atual 0,1800 mm)",
+            "items": [
+                {
+                    "description": "Ilha 1 [Net-(D7-K)] de C6 no B.Cu",
+                    "pos": {
+                        "x": 96.5132,
+                        "y": 107.8264
+                    },
+                    "uuid": "daf8bdc9-8ef0-464a-86cb-2b1a25b5b4ad"
+                },
+                {
+                    "description": "Ilha 2 [Net-(U1-BOOT)] de C6 no B.Cu",
+                    "pos": {
+                        "x": 95.8732,
+                        "y": 107.8264
+                    },
+                    "uuid": "910c7c45-a314-4ec6-a64f-0fc83451ed51"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Violação do isolamento ( isolamento 0,2000 mm; atual 0,1800 mm)",
+            "items": [
+                {
+                    "description": "Ilha 1 [Net-(D3-K)] de C5 no B.Cu",
+                    "pos": {
+                        "x": 96.3196,
+                        "y": 120.8532
+                    },
+                    "uuid": "f119687a-be5e-4f72-8d92-5d483d1ad40e"
+                },
+                {
+                    "description": "Ilha 2 [Net-(U4-BOOT)] de C5 no B.Cu",
+                    "pos": {
+                        "x": 95.6796,
+                        "y": 120.8532
+                    },
+                    "uuid": "05c65970-658b-4f76-9c31-a05720e355c4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Violação do isolamento ( isolamento 0,2000 mm; atual 0,1800 mm)",
+            "items": [
+                {
+                    "description": "Ilha 1 [Net-(D2-K)] de C4 no B.Cu",
+                    "pos": {
+                        "x": 96.3856,
+                        "y": 91.3892
+                    },
+                    "uuid": "26a6b49d-7ac2-43a3-9043-3fb10853cecf"
+                },
+                {
+                    "description": "Ilha 2 [Net-(U2-BOOT)] de C4 no B.Cu",
+                    "pos": {
+                        "x": 95.7456,
+                        "y": 91.3892
+                    },
+                    "uuid": "c3d80866-3542-4b83-b5be-a7478fb336f4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint D9",
+                    "pos": {
+                        "x": 82.73,
+                        "y": 135.48
+                    },
+                    "uuid": "464fd109-2a39-4ac1-adf3-54412f345937"
+                },
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 73.73,
+                        "y": 132.98
+                    },
+                    "uuid": "57858950-2796-4809-bcc1-98dbc005245b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Trilha [V_{ BATT}] no F.Cu, comprimento 0,0255 mm",
+                    "pos": {
+                        "x": 93.612,
+                        "y": 105.047
+                    },
+                    "uuid": "40d75dbf-d0bf-4f1c-b7fa-eeb321237057"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Trilha [V_{ BATT}] no F.Cu, comprimento 1,5805 mm",
+                    "pos": {
+                        "x": 90.9786,
+                        "y": 93.0656
+                    },
+                    "uuid": "e0fbc0c0-beb7-445d-8997-aa1c1de976ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Trilha [V_{ BATT}] no F.Cu, comprimento 3,7300 mm",
+                    "pos": {
+                        "x": 81.375,
+                        "y": 131.98
+                    },
+                    "uuid": "f58579cb-aa20-409b-aa9a-42729783d500"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Trilha [Net-(D7-K)] no B.Cu, comprimento 0,0305 mm",
+                    "pos": {
+                        "x": 101.3044,
+                        "y": 106.7592
+                    },
+                    "uuid": "657b6f8c-9fda-4dac-9f2e-1b79c9087fbe"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 115.3525,
+                        "y": 74.2188
+                    },
+                    "uuid": "01d2ba71-e8ea-4eb0-a8a7-aec2efe36dff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Potentiometer_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R_ADJ2",
+                    "pos": {
+                        "x": 94.9836,
+                        "y": 86.868
+                    },
+                    "uuid": "243b8f71-6245-4ad6-9a5d-1b8ca94e7997"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Diode_THT_AKL'",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 85.0,
+                        "y": 126.98
+                    },
+                    "uuid": "337dbbc3-787a-4983-83f1-9c7945328cca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 115.3544,
+                        "y": 76.6572
+                    },
+                    "uuid": "65fb2e1c-feb7-4f23-b806-0cf14d816050"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 115.3544,
+                        "y": 71.8312
+                    },
+                    "uuid": "7701c80a-25bc-4918-bdd7-7ecb8fd14663"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'AMASS_XT30PW-M' não encontrado na biblioteca 'oxebots_connectors'",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 81.225,
+                        "y": 74.88
+                    },
+                    "uuid": "7b005df8-88de-4d22-8934-a4cd15299bf2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Capacitor_THT_AKL'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 73.605,
+                        "y": 85.48
+                    },
+                    "uuid": "9ad73d35-9f02-4e59-bfb1-a7855c330969"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Potentiometer_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R_ADJ1",
+                    "pos": {
+                        "x": 96.1012,
+                        "y": 104.394
+                    },
+                    "uuid": "9c8f29fa-ed12-4a69-84b7-819e0bbab64e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'AMASS_XT30PW-F' não encontrado na biblioteca 'oxebots_connectors'",
+            "items": [
+                {
+                    "description": "Footprint J7",
+                    "pos": {
+                        "x": 129.271,
+                        "y": 141.856
+                    },
+                    "uuid": "c1328707-4d27-42a1-b055-e1a3b167fd13"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Potentiometer_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R_ADJ4",
+                    "pos": {
+                        "x": 95.39,
+                        "y": 116.7384
+                    },
+                    "uuid": "f73232f4-ad8c-4938-979f-055e9df81cda"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'AMASS_XT30PW-F' não encontrado na biblioteca 'oxebots_connectors'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 135.510347,
+                        "y": 64.843828
+                    },
+                    "uuid": "fc2475dc-2c24-4e93-87bd-54bf2dd25ced"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Package_SO_AKL'",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 95.9392,
+                        "y": 117.3734
+                    },
+                    "uuid": "3d85056e-f29e-4c4a-9e0d-25a6cbfeda38"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 94.8312,
+                        "y": 83.0072
+                    },
+                    "uuid": "5d91cb0d-cb83-4b3c-a99b-44cc6b305d37"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 94.9836,
+                        "y": 99.8728
+                    },
+                    "uuid": "9d9be2f4-14e6-4df8-a322-9ef10df5ea36"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 97.9808,
+                        "y": 83.0072
+                    },
+                    "uuid": "ab1695c0-25f8-4df5-a53e-6c33fc1d1306"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 98.3872,
+                        "y": 112.6744
+                    },
+                    "uuid": "d4f4505f-e6fd-4dbc-bb34-b7f0af1fcbc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 98.2856,
+                        "y": 99.822
+                    },
+                    "uuid": "d9a66e46-63cd-4e39-abef-0d8619ae7168"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Package_SO_AKL'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 87.7316
+                    },
+                    "uuid": "edda30c5-bf9f-446c-b4ca-20be05384f6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Resistor_SMD_AKL'",
+            "items": [
+                {
+                    "description": "Footprint R15",
+                    "pos": {
+                        "x": 94.7296,
+                        "y": 112.6744
+                    },
+                    "uuid": "f03b4ef2-1e72-4385-ace2-6436c8460bdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "A configuração atual não inclui a biblioteca de footprints 'PCM_Package_SO_AKL'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 96.1012,
+                        "y": 104.394
+                    },
+                    "uuid": "fc8b24b4-41a9-4cd9-ad5b-0412ad0b5137"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do R2",
+                    "pos": {
+                        "x": 67.875,
+                        "y": 87.98
+                    },
+                    "uuid": "353a42fe-5cab-4f93-821f-00fec8656dab"
+                },
+                {
+                    "description": "Retângulo no F.Silkscreen",
+                    "pos": {
+                        "x": 44.325,
+                        "y": 72.59
+                    },
+                    "uuid": "c3cb70df-4094-40a5-bc00-061dad6c2448"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R9 em F.Silkscreen",
+                    "pos": {
+                        "x": 117.0544,
+                        "y": 75.6572
+                    },
+                    "uuid": "2f5ab7dd-3594-455b-8b49-985f537857ef"
+                },
+                {
+                    "description": "Campo de referência do R7",
+                    "pos": {
+                        "x": 115.2509,
+                        "y": 76.1492
+                    },
+                    "uuid": "7f1c790e-5cf1-4038-b69c-11376a99f8c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do R9",
+                    "pos": {
+                        "x": 115.3544,
+                        "y": 74.9572
+                    },
+                    "uuid": "e4f11b8c-b8e3-4604-afbd-f4bf8b361aa5"
+                },
+                {
+                    "description": "Segmento de R7 em F.Silkscreen",
+                    "pos": {
+                        "x": 113.6525,
+                        "y": 75.2188
+                    },
+                    "uuid": "eb6d4a31-9332-44fc-8ac6-0ab8319cc1b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do D4",
+                    "pos": {
+                        "x": 119.2133,
+                        "y": 75.8688
+                    },
+                    "uuid": "73c3ced0-8e4f-41d4-a9d8-d1222242733f"
+                },
+                {
+                    "description": "Segmento de D6 em F.Silkscreen",
+                    "pos": {
+                        "x": 120.9245,
+                        "y": 75.6972
+                    },
+                    "uuid": "88550a98-9975-409f-b8e6-0ce468a83aa5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de D4 em F.Silkscreen",
+                    "pos": {
+                        "x": 118.2133,
+                        "y": 75.1788
+                    },
+                    "uuid": "58c5e7f4-400b-468d-aa9f-59d8edef3005"
+                },
+                {
+                    "description": "Campo de referência do D4",
+                    "pos": {
+                        "x": 119.2133,
+                        "y": 75.8688
+                    },
+                    "uuid": "73c3ced0-8e4f-41d4-a9d8-d1222242733f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do D5",
+                    "pos": {
+                        "x": 119.1117,
+                        "y": 73.4812
+                    },
+                    "uuid": "1feecef6-af22-4f16-bc18-e0b8f0382c98"
+                },
+                {
+                    "description": "Segmento de D4 em F.Silkscreen",
+                    "pos": {
+                        "x": 120.8983,
+                        "y": 73.2588
+                    },
+                    "uuid": "a48649ad-7f0f-4d95-ae6d-04bb6788ba4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do D1",
+                    "pos": {
+                        "x": 78.65,
+                        "y": 130.705
+                    },
+                    "uuid": "6eb183f0-a5bb-44bb-829c-25d352e02615"
+                },
+                {
+                    "description": "Ilha PTH 1 [SW_{NO}] de R11",
+                    "pos": {
+                        "x": 78.65,
+                        "y": 131.44
+                    },
+                    "uuid": "d3d1ac93-a44c-4788-8550-9b2563e1e0db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do R7",
+                    "pos": {
+                        "x": 115.2509,
+                        "y": 76.1492
+                    },
+                    "uuid": "7f1c790e-5cf1-4038-b69c-11376a99f8c4"
+                },
+                {
+                    "description": "Ilha 1 [+12V] de R9 no F.Cu",
+                    "pos": {
+                        "x": 114.4419,
+                        "y": 76.6572
+                    },
+                    "uuid": "a5818626-b239-47ca-859f-7af51af9801a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do R9",
+                    "pos": {
+                        "x": 115.3544,
+                        "y": 74.9572
+                    },
+                    "uuid": "e4f11b8c-b8e3-4604-afbd-f4bf8b361aa5"
+                },
+                {
+                    "description": "Ilha 1 [+5V] de R7 no F.Cu",
+                    "pos": {
+                        "x": 114.44,
+                        "y": 74.2188
+                    },
+                    "uuid": "88f9657c-e301-4fa8-9d04-f2ed1341c8c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do D4",
+                    "pos": {
+                        "x": 119.2133,
+                        "y": 75.8688
+                    },
+                    "uuid": "73c3ced0-8e4f-41d4-a9d8-d1222242733f"
+                },
+                {
+                    "description": "Ilha 2 [Net-(D6-A)] de D6 no F.Cu",
+                    "pos": {
+                        "x": 118.302,
+                        "y": 76.6572
+                    },
+                    "uuid": "697ea9c3-cf1f-4cf5-a6ce-8a481e79c779"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Retângulo no F.Silkscreen",
+                    "pos": {
+                        "x": 44.325,
+                        "y": 72.59
+                    },
+                    "uuid": "c3cb70df-4094-40a5-bc00-061dad6c2448"
+                },
+                {
+                    "description": "Ilha 1 [/B_{GND}] de TP14 no F.Cu",
+                    "pos": {
+                        "x": 46.825,
+                        "y": 122.34
+                    },
+                    "uuid": "b6643a48-4e8d-4ad8-b545-836b059b2f2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do D4",
+                    "pos": {
+                        "x": 119.2133,
+                        "y": 75.8688
+                    },
+                    "uuid": "73c3ced0-8e4f-41d4-a9d8-d1222242733f"
+                },
+                {
+                    "description": "Ilha 1 [GND] de D6 no F.Cu",
+                    "pos": {
+                        "x": 120.177,
+                        "y": 76.6572
+                    },
+                    "uuid": "a6345159-331d-4485-9efe-05a2d7767e2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do R7",
+                    "pos": {
+                        "x": 115.2509,
+                        "y": 76.1492
+                    },
+                    "uuid": "7f1c790e-5cf1-4038-b69c-11376a99f8c4"
+                },
+                {
+                    "description": "Ilha 2 [Net-(D6-A)] de R9 no F.Cu",
+                    "pos": {
+                        "x": 116.2669,
+                        "y": 76.6572
+                    },
+                    "uuid": "f087f1b6-ecab-4d56-b184-05580f369ea8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do R9",
+                    "pos": {
+                        "x": 115.3544,
+                        "y": 74.9572
+                    },
+                    "uuid": "e4f11b8c-b8e3-4604-afbd-f4bf8b361aa5"
+                },
+                {
+                    "description": "Ilha 2 [Net-(D4-A)] de R7 no F.Cu",
+                    "pos": {
+                        "x": 116.265,
+                        "y": 74.2188
+                    },
+                    "uuid": "6aa65e2b-38c8-4baf-a090-bb2e3c02e5fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do D5",
+                    "pos": {
+                        "x": 119.1117,
+                        "y": 73.4812
+                    },
+                    "uuid": "1feecef6-af22-4f16-bc18-e0b8f0382c98"
+                },
+                {
+                    "description": "Ilha 2 [Net-(D4-A)] de D4 no F.Cu",
+                    "pos": {
+                        "x": 118.2758,
+                        "y": 74.2188
+                    },
+                    "uuid": "ab7a4968-881b-41c2-bdce-e48b47df86dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do D5",
+                    "pos": {
+                        "x": 119.1117,
+                        "y": 73.4812
+                    },
+                    "uuid": "1feecef6-af22-4f16-bc18-e0b8f0382c98"
+                },
+                {
+                    "description": "Ilha 1 [GND] de D4 no F.Cu",
+                    "pos": {
+                        "x": 120.1508,
+                        "y": 74.2188
+                    },
+                    "uuid": "5636cf4c-8404-40e1-9f73-c3b0c45c51bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C10",
+                    "pos": {
+                        "x": 80.605113,
+                        "y": 141.73
+                    },
+                    "uuid": "03d61de4-428b-4481-96f4-0f609a602dfb"
+                },
+                {
+                    "description": "Segmento de Q1 em B.Silkscreen",
+                    "pos": {
+                        "x": 76.54,
+                        "y": 142.29
+                    },
+                    "uuid": "50023584-be97-4039-9828-3ae3cbc30a74"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R6 em B.Silkscreen",
+                    "pos": {
+                        "x": 96.9808,
+                        "y": 84.7072
+                    },
+                    "uuid": "4bb3522e-2c70-4e80-9976-d241f62e5cf0"
+                },
+                {
+                    "description": "Campo de referência do R5",
+                    "pos": {
+                        "x": 96.5312,
+                        "y": 83.0072
+                    },
+                    "uuid": "b6906ca2-101d-48ac-9e0e-ab7325e5ac92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do U2",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 91.3011
+                    },
+                    "uuid": "608eb541-d050-49fa-87b2-8b7febaca765"
+                },
+                {
+                    "description": "Campo de referência do C4",
+                    "pos": {
+                        "x": 96.0656,
+                        "y": 90.3392
+                    },
+                    "uuid": "d39c0fa2-8ecf-42bb-95e0-4a38cbd948b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de U2 em B.Silkscreen",
+                    "pos": {
+                        "x": 99.8504,
+                        "y": 90.5316
+                    },
+                    "uuid": "6143e9cc-205e-486b-ae60-e5e40efb2e45"
+                },
+                {
+                    "description": "Campo de referência do C4",
+                    "pos": {
+                        "x": 96.0656,
+                        "y": 90.3392
+                    },
+                    "uuid": "d39c0fa2-8ecf-42bb-95e0-4a38cbd948b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C6",
+                    "pos": {
+                        "x": 96.1932,
+                        "y": 106.7764
+                    },
+                    "uuid": "6ce7322e-9180-49d8-aea5-35922d63f750"
+                },
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 99.9012,
+                        "y": 107.194
+                    },
+                    "uuid": "a1a043a1-e056-48b6-9e86-7967a5e812e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R4 em B.Silkscreen",
+                    "pos": {
+                        "x": 93.9836,
+                        "y": 101.5728
+                    },
+                    "uuid": "9d928b28-ae89-4264-a681-e46dac434282"
+                },
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 92.3012,
+                        "y": 101.594
+                    },
+                    "uuid": "f3b408fe-b1d6-4759-bb4d-305e542fe388"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do U1",
+                    "pos": {
+                        "x": 96.0916,
+                        "y": 100.8668
+                    },
+                    "uuid": "83b40bc5-286b-4f57-8a07-dfb17f2abad0"
+                },
+                {
+                    "description": "Segmento de R4 em B.Silkscreen",
+                    "pos": {
+                        "x": 95.9836,
+                        "y": 98.1728
+                    },
+                    "uuid": "cd078c45-4902-4e07-9a33-29e0e717974b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do R4",
+                    "pos": {
+                        "x": 96.6836,
+                        "y": 99.8728
+                    },
+                    "uuid": "ad1790da-b0d6-426b-b414-4d95ff154905"
+                },
+                {
+                    "description": "Segmento de R4 em B.Silkscreen",
+                    "pos": {
+                        "x": 95.9836,
+                        "y": 98.1728
+                    },
+                    "uuid": "cd078c45-4902-4e07-9a33-29e0e717974b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R4 em B.Silkscreen",
+                    "pos": {
+                        "x": 95.9836,
+                        "y": 98.1728
+                    },
+                    "uuid": "cd078c45-4902-4e07-9a33-29e0e717974b"
+                },
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 92.3012,
+                        "y": 101.594
+                    },
+                    "uuid": "f3b408fe-b1d6-4759-bb4d-305e542fe388"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R4 em B.Silkscreen",
+                    "pos": {
+                        "x": 95.9836,
+                        "y": 101.5728
+                    },
+                    "uuid": "a5da1c50-a72d-42a4-aae9-a32474645fba"
+                },
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 92.3012,
+                        "y": 101.594
+                    },
+                    "uuid": "f3b408fe-b1d6-4759-bb4d-305e542fe388"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C8",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 111.2732
+                    },
+                    "uuid": "176a385a-5e39-4613-8dff-fa6ac08d5566"
+                },
+                {
+                    "description": "Segmento de R15 em B.Silkscreen",
+                    "pos": {
+                        "x": 93.7296,
+                        "y": 110.9744
+                    },
+                    "uuid": "7283029c-815c-4692-9648-a85176080d4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do U1",
+                    "pos": {
+                        "x": 96.0916,
+                        "y": 100.8668
+                    },
+                    "uuid": "83b40bc5-286b-4f57-8a07-dfb17f2abad0"
+                },
+                {
+                    "description": "Campo de referência do R4",
+                    "pos": {
+                        "x": 96.6836,
+                        "y": 99.8728
+                    },
+                    "uuid": "ad1790da-b0d6-426b-b414-4d95ff154905"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R3 em B.Silkscreen",
+                    "pos": {
+                        "x": 97.2856,
+                        "y": 101.522
+                    },
+                    "uuid": "3d4a99f6-9632-4a43-baf8-116b61ce8f2d"
+                },
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 92.3012,
+                        "y": 101.594
+                    },
+                    "uuid": "f3b408fe-b1d6-4759-bb4d-305e542fe388"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 92.3012,
+                        "y": 101.594
+                    },
+                    "uuid": "f3b408fe-b1d6-4759-bb4d-305e542fe388"
+                },
+                {
+                    "description": "Segmento de R3 em B.Silkscreen",
+                    "pos": {
+                        "x": 99.2856,
+                        "y": 98.122
+                    },
+                    "uuid": "fe78b962-43e3-42bc-9ab7-0493aaa4188c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segmento de R3 em B.Silkscreen",
+                    "pos": {
+                        "x": 99.2856,
+                        "y": 101.522
+                    },
+                    "uuid": "e5d89494-3b9a-4090-9cad-e9bbf4e09037"
+                },
+                {
+                    "description": "Segmento de U1 em B.Silkscreen",
+                    "pos": {
+                        "x": 92.3012,
+                        "y": 101.594
+                    },
+                    "uuid": "f3b408fe-b1d6-4759-bb4d-305e542fe388"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C8",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 111.2732
+                    },
+                    "uuid": "176a385a-5e39-4613-8dff-fa6ac08d5566"
+                },
+                {
+                    "description": "Campo de referência do R15",
+                    "pos": {
+                        "x": 96.4296,
+                        "y": 112.6744
+                    },
+                    "uuid": "72b617b9-b328-46df-bccf-9222c64f06fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C8",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 111.2732
+                    },
+                    "uuid": "176a385a-5e39-4613-8dff-fa6ac08d5566"
+                },
+                {
+                    "description": "Segmento de R15 em B.Silkscreen",
+                    "pos": {
+                        "x": 95.7296,
+                        "y": 110.9744
+                    },
+                    "uuid": "8bbde89d-eba0-4864-930f-df331acd61a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C5",
+                    "pos": {
+                        "x": 95.9996,
+                        "y": 119.8032
+                    },
+                    "uuid": "5af32366-d342-4d20-9b74-c76b8568ddf1"
+                },
+                {
+                    "description": "Segmento de U4 em B.Silkscreen",
+                    "pos": {
+                        "x": 99.7392,
+                        "y": 120.1734
+                    },
+                    "uuid": "846b0372-6566-435d-949c-ac6c7b1abb88"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Campo de referência do C5",
+                    "pos": {
+                        "x": 95.9996,
+                        "y": 119.8032
+                    },
+                    "uuid": "5af32366-d342-4d20-9b74-c76b8568ddf1"
+                },
+                {
+                    "description": "Campo de referência do U4",
+                    "pos": {
+                        "x": 95.9392,
+                        "y": 120.9429
+                    },
+                    "uuid": "df392d82-e1aa-45a3-bdfa-feea3a4870e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do C10",
+                    "pos": {
+                        "x": 80.605113,
+                        "y": 141.73
+                    },
+                    "uuid": "03d61de4-428b-4481-96f4-0f609a602dfb"
+                },
+                {
+                    "description": "Ilha PTH 3 [GND_{BMS}] de Q1",
+                    "pos": {
+                        "x": 79.11,
+                        "y": 140.93
+                    },
+                    "uuid": "d762492b-be65-4b94-9dcb-2fca829fd395"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do C10",
+                    "pos": {
+                        "x": 80.605113,
+                        "y": 141.73
+                    },
+                    "uuid": "03d61de4-428b-4481-96f4-0f609a602dfb"
+                },
+                {
+                    "description": "Ilha PTH 2 [GND] de Q1",
+                    "pos": {
+                        "x": 81.65,
+                        "y": 140.93
+                    },
+                    "uuid": "2fc88443-21cd-41b7-afda-a58abace5a6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do Q1",
+                    "pos": {
+                        "x": 81.65,
+                        "y": 136.83
+                    },
+                    "uuid": "9e141123-704d-4ddc-9ec0-be9a293b7efd"
+                },
+                {
+                    "description": "Ilha PTH 1 [Net-(D9-K)] de D9",
+                    "pos": {
+                        "x": 82.73,
+                        "y": 135.48
+                    },
+                    "uuid": "eeca26d2-55cb-4965-a67e-3b16c6a58010"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Retângulo de D9 em B.Silkscreen",
+                    "pos": {
+                        "x": 80.37,
+                        "y": 134.01
+                    },
+                    "uuid": "e28ef340-b312-4263-b8d9-7e151a1e2744"
+                },
+                {
+                    "description": "Ilha PTH 2 [Net-(D9-K)] de R11",
+                    "pos": {
+                        "x": 78.65,
+                        "y": 136.52
+                    },
+                    "uuid": "313a67c3-b57b-4646-aee9-e66288a8d4b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de D9 em B.Silkscreen",
+                    "pos": {
+                        "x": 79.35,
+                        "y": 134.01
+                    },
+                    "uuid": "d084c886-a82c-429d-b634-243d2231503e"
+                },
+                {
+                    "description": "Ilha PTH 2 [Net-(D9-K)] de R11",
+                    "pos": {
+                        "x": 78.65,
+                        "y": 136.52
+                    },
+                    "uuid": "313a67c3-b57b-4646-aee9-e66288a8d4b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do U4",
+                    "pos": {
+                        "x": 95.9392,
+                        "y": 120.9429
+                    },
+                    "uuid": "df392d82-e1aa-45a3-bdfa-feea3a4870e7"
+                },
+                {
+                    "description": "Ilha 1 [Net-(D3-K)] de C5 no B.Cu",
+                    "pos": {
+                        "x": 96.3196,
+                        "y": 120.8532
+                    },
+                    "uuid": "f119687a-be5e-4f72-8d92-5d483d1ad40e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do U2",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 91.3011
+                    },
+                    "uuid": "608eb541-d050-49fa-87b2-8b7febaca765"
+                },
+                {
+                    "description": "Ilha 1 [Net-(D2-K)] de C4 no B.Cu",
+                    "pos": {
+                        "x": 96.3856,
+                        "y": 91.3892
+                    },
+                    "uuid": "26a6b49d-7ac2-43a3-9043-3fb10853cecf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do U1",
+                    "pos": {
+                        "x": 96.0916,
+                        "y": 100.8668
+                    },
+                    "uuid": "83b40bc5-286b-4f57-8a07-dfb17f2abad0"
+                },
+                {
+                    "description": "Ilha 1 [Net-(R4-Pad1)] de R4 no B.Cu",
+                    "pos": {
+                        "x": 94.9836,
+                        "y": 100.7853
+                    },
+                    "uuid": "cd528856-0ae4-46fa-bf05-daff23edd612"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do U2",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 91.3011
+                    },
+                    "uuid": "608eb541-d050-49fa-87b2-8b7febaca765"
+                },
+                {
+                    "description": "Ilha 2 [Net-(U2-BOOT)] de C4 no B.Cu",
+                    "pos": {
+                        "x": 95.7456,
+                        "y": 91.3892
+                    },
+                    "uuid": "c3d80866-3542-4b83-b5be-a7478fb336f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do C8",
+                    "pos": {
+                        "x": 96.0504,
+                        "y": 111.2732
+                    },
+                    "uuid": "176a385a-5e39-4613-8dff-fa6ac08d5566"
+                },
+                {
+                    "description": "Ilha 2 [Net-(U4-VSENSE)] de R15 no B.Cu",
+                    "pos": {
+                        "x": 94.7296,
+                        "y": 111.7619
+                    },
+                    "uuid": "1e821ffc-92ca-4ae3-baa9-743c19d1e596"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Campo de referência do U4",
+                    "pos": {
+                        "x": 95.9392,
+                        "y": 120.9429
+                    },
+                    "uuid": "df392d82-e1aa-45a3-bdfa-feea3a4870e7"
+                },
+                {
+                    "description": "Ilha 2 [Net-(U4-BOOT)] de C5 no B.Cu",
+                    "pos": {
+                        "x": 95.6796,
+                        "y": 120.8532
+                    },
+                    "uuid": "05c65970-658b-4f76-9c31-a05720e355c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}
