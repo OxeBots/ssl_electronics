@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "oxebots") (type "KiCad") (uri "C:/Users/rfvin/Downloads/ssl_electronics-interface-kicker/ssl_electronics-interface-kicker/Libraries/Footprints/oxebots.pretty") (options "") (descr ""))
+	(lib (name "oxebots") (type "KiCad") (uri "C:/Users/rfvin/Downloads/ssl_electronics-interface-kicker/ssl_electronics-interface-kicker/Libraries/Footprints/oxebots.pretty") (options "") (descr ""))
+	(lib (name "oxebots") (type "KiCad") (uri "C:/Users/rfvin/Downloads/ssl_electronics-kicker/ssl_electronics-kicker/Libraries/Footprints/oxebots.pretty") (options "") (descr ""))
+	(lib (name "RJZ-1215S_P") (type "KiCad") (uri "C:/Users/rfvin/Downloads/RJZ-1215S_P.pretty") (options "") (descr ""))
+	(lib (name "RJZ-1215S_P") (type "KiCad") (uri "C:/Users/rfvin/Downloads/RJZ-1215S_P.pretty") (options "") (descr ""))
+)
