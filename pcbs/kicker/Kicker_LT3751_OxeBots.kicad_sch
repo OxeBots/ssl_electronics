@@ -10075,6 +10075,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 351.79) (xy 107.95 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcb0863-2ac4-4c8a-83de-118ea2deafcc")
+	)
+	(wire
+		(pts
 			(xy 431.8 397.51) (xy 431.8 396.24)
 		)
 		(stroke
@@ -10542,6 +10552,16 @@
 			(type default)
 		)
 		(uuid "2696c035-f4f3-468e-8743-2d214c890ac6")
+	)
+	(wire
+		(pts
+			(xy 113.03 345.44) (xy 113.03 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28582595-468d-4075-9689-483d89be356b")
 	)
 	(wire
 		(pts
@@ -12105,6 +12125,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 337.82) (xy 113.03 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ad1719-c3f4-4e22-99ba-14d075ccac30")
+	)
+	(wire
+		(pts
 			(xy 337.82 327.66) (xy 347.98 327.66)
 		)
 		(stroke
@@ -12862,6 +12892,16 @@
 			(type default)
 		)
 		(uuid "bf0ea34f-fae6-4e77-8946-9e97eed01a61")
+	)
+	(wire
+		(pts
+			(xy 123.19 337.82) (xy 123.19 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf13f800-991a-4b86-8681-a8a8a73c3cf7")
 	)
 	(wire
 		(pts
@@ -13645,6 +13685,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 349.25) (xy 107.95 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f230820c-8eff-4fa2-8e6a-fd65eaa88beb")
+	)
+	(wire
+		(pts
 			(xy 111.76 287.02) (xy 111.76 283.21)
 		)
 		(stroke
@@ -13702,6 +13752,16 @@
 			(type default)
 		)
 		(uuid "f379d030-32db-4391-a9a2-48defc0f6892")
+	)
+	(wire
+		(pts
+			(xy 123.19 345.44) (xy 123.19 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f397875b-d86b-4c47-8242-cb5539bfa324")
 	)
 	(wire
 		(pts
@@ -14043,6 +14103,30 @@
 			)
 		)
 	)
+	(global_label "MCU_I2C_SDA"
+		(shape bidirectional)
+		(at 107.95 351.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c56d2ab-b669-4b6f-8011-606f9f6ea62c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.214 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LT3751_FB"
 		(shape output)
 		(at 246.38 381 0)
@@ -14358,6 +14442,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_I2C_SCL"
+		(shape bidirectional)
+		(at 107.95 349.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79648de1-42a5-4d46-945e-532f89e8231e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2745 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -21200,6 +21308,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 113.03 341.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5270fadd-ba20-490b-93a6-45fbce68521f")
+		(property "Reference" "R39"
+			(at 115.57 340.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 342.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 111.252 341.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "243ded20-a148-4faf-b928-d51dfbb3f12d")
+		)
+		(pin "2"
+			(uuid "9ffa3e93-e5ba-4048-8a89-1ae96527545e")
+		)
+		(instances
+			(project "Kicker_LT3751_OxeBots"
+				(path "/2c94980c-6f4e-48b5-9fc0-6ad807016def"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oxebots:TLV9002")
 		(at 313.69 387.35 0)
 		(unit 3)
@@ -26485,6 +26675,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 123.19 341.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ead452-fd23-4612-8e7a-ea387cbea4a1")
+		(property "Reference" "R40"
+			(at 125.73 340.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 342.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 121.412 341.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c7fdbcb-aac4-4bcd-8f75-2d32f52d5b1c")
+		)
+		(pin "2"
+			(uuid "eca8d50a-2c88-409a-b4dc-810037ef3e86")
+		)
+		(instances
+			(project "Kicker_LT3751_OxeBots"
+				(path "/2c94980c-6f4e-48b5-9fc0-6ad807016def"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 168.91 0)
 		(unit 1)
@@ -27343,6 +27615,84 @@
 			(project "Kicker_LT3751_OxeBots"
 				(path "/2c94980c-6f4e-48b5-9fc0-6ad807016def"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 123.19 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8fcdcb2-0fc4-4081-9036-e15ce938aaa4")
+		(property "Reference" "#PWR0102"
+			(at 123.19 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.19 331.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 123.19 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dd5f44d-03da-4010-92dc-ec93780808f3")
+		)
+		(instances
+			(project "Kicker_LT3751_OxeBots"
+				(path "/2c94980c-6f4e-48b5-9fc0-6ad807016def"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -31052,6 +31402,84 @@
 			(project "Kicker_LT3751_OxeBots"
 				(path "/2c94980c-6f4e-48b5-9fc0-6ad807016def"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 113.03 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de66c176-845c-4c87-b965-895743619d3e")
+		(property "Reference" "#PWR0101"
+			(at 113.03 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 113.03 331.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 113.03 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ce37482-f130-4de1-b5ea-8b1253c94550")
+		)
+		(instances
+			(project "Kicker_LT3751_OxeBots"
+				(path "/2c94980c-6f4e-48b5-9fc0-6ad807016def"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

@@ -564,7 +564,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "Gerber_Files/",
+      "plot": "Kicker_Gerber_Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
