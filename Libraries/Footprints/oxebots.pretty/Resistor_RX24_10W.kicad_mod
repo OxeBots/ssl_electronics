@@ -1,0 +1,212 @@
+(footprint "Resistor_RX24_10W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03f56034-1a53-4eb1-99b3-99e2f396066e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Resistor_RX24_10W"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "39bb903f-9aaf-440e-8810-b644908fdb2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc306256-e882-43d3-a13e-82e328f54528")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e511fcc3-34ec-48b1-8ad6-6b7616e29756")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.5 0)
+		(end -14.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b625909-6ffb-40d3-b2d7-8c542594df66")
+	)
+	(fp_line
+		(start -9.5 5.35)
+		(end -9.5 10.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be9ed3f1-4d0e-4137-98c1-f113ec266e73")
+	)
+	(fp_line
+		(start -4.7 10.15)
+		(end -9.5 10.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f36f785-53c8-41c5-99ab-0923e6228acf")
+	)
+	(fp_line
+		(start -4.7 10.15)
+		(end -4.7 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85680ff9-b6a1-4c4a-b6ad-d6c607fb9637")
+	)
+	(fp_line
+		(start 4.7 -10.15)
+		(end 4.7 -5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31cc4f09-7851-4bd1-b130-fdf57f8bbb6e")
+	)
+	(fp_line
+		(start 9.5 -10.15)
+		(end 4.7 -10.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f24e643e-5e64-496e-9bb2-5c3cd8b7b17a")
+	)
+	(fp_line
+		(start 9.5 -10.15)
+		(end 9.5 -5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c088a41-2e31-4d4b-bcb8-27f263e07833")
+	)
+	(fp_line
+		(start 14.5 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "933c951e-46fd-48cc-b376-347013379fb9")
+	)
+	(fp_rect
+		(start -9.5 -5.35)
+		(end 9.5 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "286586a3-e0a9-4240-8be4-a54a8f8f0319")
+	)
+	(fp_circle
+		(center -7.1 7.95)
+		(end -6 7.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "94e35f1f-2cb8-4eb7-8f71-3d91fd15131d")
+	)
+	(fp_circle
+		(center 7.1 -7.95)
+		(end 8.2 -7.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6d7d50ac-0109-4ad2-ad96-8a2f9887c79c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "193b33d3-d140-4646-b98f-9307fd795fcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -17.45 0)
+		(size 4.5 4.5)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "04d7ec5e-80d8-4fa9-86d8-41ad00ff8ae8")
+	)
+	(pad "2" thru_hole roundrect
+		(at 17.45 0)
+		(size 4.5 4.5)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "fde635c4-b32d-4aa5-9936-69bab0d59bb0")
+	)
+	(embedded_fonts no)
+	(model "${OXEBOTS_SSL_LIB_DIR}/3D models/resistor_rx24_10w.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
