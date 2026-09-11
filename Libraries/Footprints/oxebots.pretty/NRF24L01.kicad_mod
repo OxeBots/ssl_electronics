@@ -1,0 +1,322 @@
+(footprint "NRF24L01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "PCB2"
+		(at -13.025 -8.835 0)
+		(layer "F.SilkS")
+		(uuid "769ee485-0a3e-4909-ad37-1ca3f76b1e53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at -0.525 8.835 0)
+		(layer "F.Fab")
+		(uuid "ed782495-2fdb-4377-b111-fade34ca9026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c611152-aae6-47ca-a9e8-a5bb85e7b6da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ce90c92-d1ad-4306-9e6f-956d0bb66fe5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.5544 -7.5311)
+		(end -16.5544 7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e769347-84f8-4432-a6c5-a75530955512")
+	)
+	(fp_line
+		(start -16.5544 7.5311)
+		(end 12 7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bd3dcf2-fd14-469a-9570-15e4270549cf")
+	)
+	(fp_line
+		(start -16.5 3.302)
+		(end -11 3.302)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31833786-34f3-4dbf-9957-4ad3261b2bb9")
+	)
+	(fp_line
+		(start -11 3.302)
+		(end -11 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ca4c621-b0a2-429b-b7ac-38f7e884ba81")
+	)
+	(fp_line
+		(start 12 -7.5311)
+		(end -16.5544 -7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94d870e3-fb9c-4c62-aff3-c451122d04e6")
+	)
+	(fp_line
+		(start 12 7.5311)
+		(end 12 -7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d25953-7ead-43cc-a7e4-b929173e4eef")
+	)
+	(fp_circle
+		(center -17.385 -5.68)
+		(end -17.285 -5.68)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "357fb79f-cfed-48ce-bd0b-58e9c795e144")
+	)
+	(fp_line
+		(start -16.8044 -7.7811)
+		(end -16.8044 7.7811)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86d0eea0-25c4-4346-8a25-d55f078e4def")
+	)
+	(fp_line
+		(start -16.8044 7.7811)
+		(end 12 7.7811)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9edbdb9c-20c6-4812-b77c-d9b5d5979777")
+	)
+	(fp_line
+		(start 12 -7.7811)
+		(end -16.8044 -7.7811)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6d8c452-6250-4c19-bf91-50c1863a6e5a")
+	)
+	(fp_line
+		(start 12 7.5311)
+		(end 12 -7.7811)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03cc84e3-3398-469e-b499-58ed2ad95fce")
+	)
+	(fp_line
+		(start -16.5544 -7.5311)
+		(end -16.5544 7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b780492-6bbb-4850-ad9d-88d28da4f6ca")
+	)
+	(fp_line
+		(start -16.5544 7.5311)
+		(end 9.5 7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5ac1cb2-460b-4c89-a586-b1d74c7d0b2c")
+	)
+	(fp_line
+		(start 9.5 -7.5311)
+		(end -16.5544 -7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffc8f542-babd-4832-908d-07fda6df9baf")
+	)
+	(fp_line
+		(start 12 7.5311)
+		(end 12 -7.5311)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1464f7de-8149-4e94-bcd4-8c1615770370")
+	)
+	(fp_circle
+		(center -17.385 -5.68)
+		(end -17.285 -5.68)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ba032e4e-18f4-40ea-a741-f9ea7ab36f33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.762 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "78c91cfb-2746-4a96-ade8-d462fc7e033a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}NRF24L01"
+		(at -0.254 -5.334 0)
+		(layer "F.Fab")
+		(uuid "53dff4be-5dc2-495c-882a-35906c7f31cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -15.2844 -5.6689)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "134d62db-524c-4ad0-b9d8-108013c49f87")
+	)
+	(pad "2" thru_hole circle
+		(at -15.2844 -3.1289)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "568be731-8c3d-4552-b911-ce927f761820")
+	)
+	(pad "3" thru_hole circle
+		(at -15.2844 -0.5889)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "109b8701-c4e1-47e9-948f-9529a004c8b5")
+	)
+	(pad "4" thru_hole circle
+		(at -15.2844 1.9511)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "005f9748-79df-42ff-94cf-f69ed7e6c134")
+	)
+	(pad "5" thru_hole circle
+		(at -12.7445 -5.6689)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bc04c853-c34e-43e6-a7f3-42782dea604c")
+	)
+	(pad "6" thru_hole circle
+		(at -12.7445 -3.1289)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "08c36c39-822b-4a8a-a014-4d2e378ee263")
+	)
+	(pad "7" thru_hole circle
+		(at -12.7445 -0.5889)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "012243a5-cee8-41bc-8efc-b61cd3a8f91b")
+	)
+	(pad "8" thru_hole circle
+		(at -12.7445 1.9511)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "eb9093e0-b615-425e-bdcf-2ab1bc565466")
+	)
+	(embedded_fonts no)
+	(model "${OXEBOTS_SSL_LIB_DIR}/3D models/NRF24l01.STEP"
+		(offset
+			(xyz -16.9 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
