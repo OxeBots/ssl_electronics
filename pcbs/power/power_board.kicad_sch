@@ -3393,388 +3393,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XT30PW-F:XT30PW-F"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -7.62 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "XT30PW-F"
-				(at -7.62 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "XT30PW-F:AMASS_XT30PW-F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "amass"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "1.2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "XT30PW-F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Amass"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_PN" "XT30PW-F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "XT30PW-F_0_0"
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.905 0.635)
-					(mid -1.2727 0)
-					(end -1.905 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.905 -1.905)
-					(mid -1.2727 -2.54)
-					(end -1.905 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "XT30PW-M:XT30PW-M"
 			(pin_names
 				(offset 1.016)
@@ -3938,6 +3556,397 @@
 				)
 			)
 			(property "MP" "XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Amass"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PN" "XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "XT30PW-M_0_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.2225 -0.3175)
+					(end -0.635 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.2225 -2.8575)
+					(end -0.635 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oxebots:XT30PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -7.62 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT30PW-M"
+				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "XT30PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7175,6 +7184,26 @@
 		)
 		(uuid "0cd975f1-57d6-48da-b40e-37a17a0607b3")
 	)
+	(label "Net-(J5-Pin_2)"
+		(at 229.87 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d0815ab-c7b9-4d3f-b8b1-1ccb6d7ea2ea")
+	)
+	(label "Net-(D3-K)"
+		(at 78.74 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a0dd8c8-b6fa-4a3a-9639-082281957ba8")
+	)
 	(label "B_{4s}"
 		(at 227.33 39.37 180)
 		(effects
@@ -7195,6 +7224,76 @@
 		)
 		(uuid "5dee2f2c-54ac-4df9-853f-64537d38288c")
 	)
+	(label "Net-(D3-K)"
+		(at 220.98 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72f9b581-cffd-49df-9f9b-5985227a000b")
+	)
+	(label "Net-(J5-Pin_2)"
+		(at 229.87 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ea82dd1-e6b7-4d3f-91d0-525ddb8a2501")
+	)
+	(label "Net-(D3-K)"
+		(at 78.74 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "845eb9ab-efa9-49ce-a56e-fb1acdbe4af3")
+	)
+	(label "Net-(D3-K)"
+		(at 78.74 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b568dec-98ed-452d-856d-0feeb40a52af")
+	)
+	(label "Net-(D3-K)"
+		(at 78.74 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f9eadcb-5f41-4236-a8c8-57189441605b")
+	)
+	(label "Net-(J6-Pin_2)"
+		(at 229.87 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8151aa5-7c3a-4812-b225-bbb254cf0ee1")
+	)
+	(label "Net-(D2-K)"
+		(at 68.58 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c84f8985-c085-4491-8a5c-a4fc360196b7")
+	)
 	(label "B_{6s}"
 		(at 227.33 26.67 180)
 		(effects
@@ -7204,6 +7303,66 @@
 			(justify right bottom)
 		)
 		(uuid "cc40a2c6-43f6-435c-a71a-1203a151e7c3")
+	)
+	(label "Net-(U4-BOOT)"
+		(at 213.36 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8457203-e2ca-42f2-891e-afc0f39f1eca")
+	)
+	(label "Net-(J6-Pin_2)"
+		(at 229.87 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbde343c-a115-4faf-8037-400c9b75118b")
+	)
+	(label "Net-(J4-Pin_2)"
+		(at 229.87 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3c20f8a-8e53-46bb-b4ed-6b12756cb74c")
+	)
+	(label "Net-(D7-K)"
+		(at 68.58 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f98145b5-bb5c-4cfb-a5c2-e262caf16a81")
+	)
+	(label "Net-(D3-K)"
+		(at 78.74 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd2e8f34-dff2-4f77-b7da-1ecaa0fcc0d3")
+	)
+	(label "Net-(J4-Pin_2)"
+		(at 229.87 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe50abea-7822-4c58-82be-eb04be111d39")
 	)
 	(global_label "SW_{NO}"
 		(shape output)
@@ -7505,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b715d1-bf7e-45ff-a091-f800f333cb64")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7565,233 +7724,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30PW-F:XT30PW-F")
-		(at 96.52 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0759c712-43fc-4a5d-a973-8fa05b3bd833")
-		(property "Reference" "J2"
-			(at 92.71 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-F"
-			(at 92.71 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "amass"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT30PW-F"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Amass"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "XT30PW-F"
-			(at 96.52 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "P"
-			(uuid "61a30e9c-b15b-45fc-a774-7376be1ef22d")
-		)
-		(pin "N"
-			(uuid "1872e5d5-f3f3-4ddd-8bf6-3feacc9439a3")
-		)
-		(instances
-			(project "power_board"
-				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "J2")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7971,7 +7904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110c71c6-663b-40f0-9caa-1e87e3a91259")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 22.86 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8040,7 +7973,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "192c0c91-fb46-429b-9712-5cd8d8d53907")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 59.69 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +8208,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8384,7 +8317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc16c12-c86b-4c0f-8094-761e6c5f40a2")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 234.95 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8393,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8478,7 +8411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e2571ea-e436-48dc-ab81-1f771c4e3b7b")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 82.55 75.9461 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,7 +8486,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8626,6 +8559,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 19.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42f8b4c8-737a-43db-a9ab-a5126bab0a40")
 		)
@@ -8653,7 +8597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210fe685-570d-4035-8621-41a51a03fa7b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 55.88 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -8713,7 +8657,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8730,7 +8674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24fd71fb-9389-48c6-9bd7-a0d415aff42b")
-		(property "Reference" "TP1"
+		(property "Reference" "TP15"
 			(at 198.755 29.337 0)
 			(hide yes)
 			(show_name no)
@@ -8753,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
 			(at 209.55 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +8736,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "TP1")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -8810,7 +8754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269ec5f2-3493-4b88-a9e4-1b856bbac035")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 234.95 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8886,7 +8830,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29572e1c-8109-4360-9a2a-edd63ab946cc")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 101.6 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +9101,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9278,7 +9222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "300ad866-2b49-4c97-ab57-fd3fd39fc602")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 57.15 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9338,7 +9282,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9356,7 +9300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31af9619-0f18-4cf4-8d7d-a8123d616fc9")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 127 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9411,6 +9355,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 124.46 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "484aa977-8f1f-4f34-9c2c-d1d091fccfb0")
 		)
@@ -9420,7 +9375,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9672,7 +9627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "405e858b-726b-417f-8d3f-768e33a455b7")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 74.93 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,6 +9680,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 74.93 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27476a7f-756f-4916-b52d-6fc692c090f7")
 		)
@@ -9734,7 +9700,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9912,7 +9878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418afd13-257a-4e16-a4a9-41172c78a062")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 86.36 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9985,7 +9951,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10003,7 +9969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "422ae985-4ed3-4914-88ce-f12a45f20743")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 100.33 117.7924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10067,7 +10033,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10084,7 +10050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43b6abc4-64d0-474f-8823-fce85e381896")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 124.46 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10144,7 +10110,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10207,6 +10173,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 19.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 19.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10389,6 +10366,243 @@
 		)
 	)
 	(symbol
+		(lib_id "oxebots:XT30PW-M")
+		(at 96.52 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c95b41a-8c08-4727-9a03-f4bbc5e733a1")
+		(property "Reference" "J2"
+			(at 92.71 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 92.71 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oxebots:AMASS_XT30PW-M"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT30PW-M"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amass"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "XT30PW-M"
+			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "N"
+			(uuid "e7e3293e-0556-4b88-828d-2e566628ce14")
+		)
+		(pin "P"
+			(uuid "46242085-afd8-4a90-97a5-841f2ae6b752")
+		)
+		(instances
+			(project "power_board"
+				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 124.46 107.95 0)
 		(unit 1)
@@ -10399,7 +10613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f1cc1d6-5eba-494e-9358-a06931163ee8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10459,7 +10673,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10477,7 +10691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd5f582-0720-4acb-8cca-d8b5d947a7be")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 127 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,6 +10746,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 124.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6e34fc40-9cdc-4da5-bed3-4e0b86a3f678")
 		)
@@ -10541,7 +10766,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10558,7 +10783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5afef685-1fc4-4c67-ab6e-0ae71fe3cd32")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 46.99 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10618,7 +10843,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10636,7 +10861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed5ef5d-464c-4c21-915e-9627200efda1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 97.79 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10696,7 +10921,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10714,7 +10939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64eb8d14-28d8-4791-9c92-8a65b9ce7092")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10774,7 +10999,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10792,7 +11017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "660f5587-089e-42f1-9ea7-b892a6cff228")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 170.18 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10852,7 +11077,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10870,7 +11095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6caf8b04-da18-46b8-9564-990e1008df83")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 81.28 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +11170,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a5c0c8b-9a4a-429d-8b2e-cdad55e179ba")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 172.72 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11252,6 +11477,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ecd5385-2207-40da-a6db-6fee557e174f")
 		)
@@ -11261,7 +11497,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11365,6 +11601,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/SMD"
+			(at 195.58 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "086784d8-7be8-449a-bdf0-dbe7c9d8608a")
 		)
@@ -11395,7 +11642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f3ba341-bfbd-4ffd-a976-5d6a1f006731")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 72.39 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11470,7 +11717,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11487,7 +11734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "803aa02e-893d-407b-a06b-0f77383adde8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 109.22 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11547,7 +11794,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11565,7 +11812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810b8d82-33d2-4afe-868e-facef60e6d88")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 205.74 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11618,6 +11865,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 205.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cf2a58b-9928-4def-9f1d-27046c72d346")
 		)
@@ -11627,7 +11885,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11645,7 +11903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8209f273-7d7b-487f-86c2-6c990677462f")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 133.35 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11711,6 +11969,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 129.54 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0adc280-8839-4836-a92a-a4c7e5638371")
 		)
@@ -11720,7 +11989,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11738,7 +12007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8219f623-cf19-4a6d-a636-dcbee4ad7c27")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR036"
 			(at 195.58 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11798,7 +12067,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR039")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11816,7 +12085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8325b0d6-f160-40de-8bf0-4732d73c20a6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 113.03 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11876,7 +12145,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11894,7 +12163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87145916-ca82-4314-91c3-9a05067cb0f8")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 100.33 166.0524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +12227,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11975,7 +12244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "879c8b4c-7a3d-4d0b-ba43-96f12a6ae037")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 109.22 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12035,7 +12304,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12098,6 +12367,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 243.84 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
 			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12180,6 +12460,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12295,7 +12586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c54b5dd-c4a3-4799-b2f2-9829b4fe14c7")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12355,7 +12646,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12373,7 +12664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d1d76db-c65a-438a-83e3-73c9a58b5fb6")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 162.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12433,7 +12724,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12451,7 +12742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90965077-2c20-45f3-af6b-d4a4c5b4eecf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 109.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12511,7 +12802,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12820,6 +13111,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 129.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "52945ce7-3b0e-44f6-acc4-3ceeb8b97c3c")
 		)
@@ -12903,6 +13205,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13016,7 +13329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d098996-12c6-4251-8185-4d95c6797d0c")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 187.96 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13102,7 +13415,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13120,7 +13433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ebf7017-e0ec-4be4-a98a-c4c8420e31bd")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 186.69 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13180,7 +13493,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13198,7 +13511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4c48d8-9c9b-4efc-97d1-b33fd5df8b7a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 46.99 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13258,7 +13571,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13489,7 +13802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1799b1f-86f7-4c17-ab77-54286d45730f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 113.03 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13549,7 +13862,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13587,7 +13900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "oxebots:AMASS_XT30PW-M"
 			(at 96.52 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13879,6 +14192,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/SMD"
+			(at 64.77 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ce9228b-3513-4211-9d78-384368cb2be7")
 		)
@@ -13989,7 +14313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af027771-abe0-4992-879e-ce5cf6023398")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 165.1 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14044,6 +14368,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 162.56 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c8194bc-3b3b-4643-8400-40c2929db946")
 		)
@@ -14053,7 +14388,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14251,7 +14586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b787ea03-39ac-4b95-91b6-95dfc733e2b0")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 74.93 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14304,6 +14639,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 74.93 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7aa0c68c-0a59-49db-b9f6-e46687da66a7")
 		)
@@ -14313,7 +14659,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14331,7 +14677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b83eed76-6969-4172-b497-3ded93937f86")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 116.84 119.6339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14386,6 +14732,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
+			(at 113.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "78113e7c-c16b-4f17-915c-4242a8951a7c")
 		)
@@ -14395,7 +14752,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14492,7 +14849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b90b3629-8d7c-4723-8e62-64f2913267b0")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 22.86 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14561,7 +14918,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14658,7 +15015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bda3402c-4eb9-426e-8c74-04e492588b37")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 162.56 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14718,7 +15075,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14902,7 +15259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c14c25ba-befe-4f46-8a77-0e5dee325d21")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 204.47 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14962,7 +15319,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14979,7 +15336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ab1e8b-79bc-49ea-95c6-b0e283b3284f")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 69.85 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15039,7 +15396,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15220,6 +15577,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/SMD"
+			(at 64.77 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "25d46a4b-cdd5-4765-aafd-945396cafc8f")
 		)
@@ -15250,7 +15618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c65561c8-574a-4106-b263-0f7ccf0f2e82")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 116.84 167.8939 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15305,6 +15673,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
+			(at 113.03 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eed0904f-ac98-4485-bdcc-2edb52a3d800")
 		)
@@ -15314,7 +15693,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15332,7 +15711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce157acc-2e62-4068-99c5-52841015625e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -15392,7 +15771,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15410,7 +15789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4eee3f7-eb26-4394-a1ba-746b90bafd2b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR029"
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15470,7 +15849,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR034")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15487,7 +15866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8f90623-7b09-4c0d-aa29-1510aacc0357")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR017"
 			(at 93.98 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15547,7 +15926,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR027")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15642,7 +16021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30ed90c-9907-4ad0-a69d-4930e58f5e35")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 109.22 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15702,7 +16081,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15720,7 +16099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e450388b-b8df-45a0-8eac-3b8f4d900ff9")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 72.39 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15795,7 +16174,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15812,7 +16191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5cdfd72-909d-4f5d-af84-7d160663182c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 149.86 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15872,7 +16251,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15890,7 +16269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e716ee05-4afa-46d8-a253-f586bb99efd9")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 62.23 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15965,7 +16344,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -16063,7 +16442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb216e70-16d6-44ff-b181-5efa47a7dc6f")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 153.67 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,6 +16508,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5661dd5d-9fc8-40dc-b4db-1660b11ff793")
 		)
@@ -16138,7 +16528,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -16156,7 +16546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd372c3-9e25-421c-9a7f-6463ad61cf50")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 55.88 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -16216,7 +16606,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16234,7 +16624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f13db1e8-e01e-41da-b9a8-f2af8fcac0ed")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 234.95 21.336 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16310,7 +16700,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -16328,7 +16718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1be4a05-ad63-46bb-8b39-281c6f7f3d3b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 97.79 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16388,7 +16778,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16486,7 +16876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e8fe5a-07b5-4ea2-9f9a-15a35fce10ec")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16546,7 +16936,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16643,7 +17033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa23c50c-baab-46b1-8180-e41a1bc255de")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 69.85 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16703,7 +17093,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16766,6 +17156,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 255.27 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -16858,6 +17259,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71b517fe-8916-4c8e-914c-468fdd1ac7c2")
 		)
@@ -16940,6 +17352,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 57.15 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8392c7e0-c90d-4cd1-a856-95c7300e4e62")
 		)
@@ -16967,7 +17390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2a4bbd-6305-4a4e-a581-3e0a8f8403cd")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 86.36 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17040,7 +17463,7 @@
 		(instances
 			(project "power_board"
 				(path "/eab64f0c-ea4f-46f4-9775-84a1c543e81f"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
