@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.0,
-          "width": 1.905
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -152,7 +152,7 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
+        "min_microvia_diameter": 0.1,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
@@ -248,6 +248,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
@@ -706,7 +710,7 @@
         "uuid": "21d6ebf1-8438-4874-a5b6-238c3ba91f04"
       }
     ],
-    "used_designators": "J1,PS1,D2",
+    "used_designators": "J1-2,PS1,D2,D4-6",
     "variants": []
   },
   "sheets": [
