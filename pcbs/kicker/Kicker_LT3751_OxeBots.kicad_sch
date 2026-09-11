@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Projeto do Conversor Flyback para o Kicker")
-		(date "2025-08-10")
-		(rev "1")
+		(date "2026-09-10")
+		(rev "V01")
 		(company "OxeBots")
 		(comment 1 "Autor: Wildson Oliveira dos Santos")
 	)

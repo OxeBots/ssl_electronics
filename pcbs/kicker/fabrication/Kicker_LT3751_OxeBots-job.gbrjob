@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.5"
+      "Version": "10.0.6-10.0.6~ubuntu24.04.1"
     },
-    "CreationDate": "2026-09-10T12:27:39-03:00"
+    "CreationDate": "2026-09-10T22:49:32-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Kicker_LT3751_OxeBots",
       "GUID": "4b69636b-6572-45f4-9c54-333735315f4f",
-      "Revision": "rev?"
+      "Revision": "V01"
     },
     "Size": {
       "X": 118.0659,
@@ -34,47 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Kicker_LT3751_OxeBots-F_Cu.gbr",
+      "Path": "Kicker_LT3751_OxeBots-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Kicker_LT3751_OxeBots-B_Cu.gbr",
+      "Path": "Kicker_LT3751_OxeBots-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Kicker_LT3751_OxeBots-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Kicker_LT3751_OxeBots-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Kicker_LT3751_OxeBots-F_Silkscreen.gbr",
+      "Path": "Kicker_LT3751_OxeBots-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Kicker_LT3751_OxeBots-B_Silkscreen.gbr",
+      "Path": "Kicker_LT3751_OxeBots-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Kicker_LT3751_OxeBots-F_Mask.gbr",
+      "Path": "Kicker_LT3751_OxeBots-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Kicker_LT3751_OxeBots-B_Mask.gbr",
+      "Path": "Kicker_LT3751_OxeBots-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Kicker_LT3751_OxeBots-Edge_Cuts.gbr",
+      "Path": "Kicker_LT3751_OxeBots-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
