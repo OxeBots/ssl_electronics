@@ -6316,10 +6316,10 @@
 		(uuid "271d6f32-db79-40b6-9de9-02c9c4facd0e")
 	)
 	(junction
-		(at 66.04 118.11)
+		(at 222.25 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "331a11e1-b396-4a79-9f3c-da88ee72a7ca")
+		(uuid "3163f844-7b44-4be0-8667-4ed65ef630aa")
 	)
 	(junction
 		(at 74.93 118.11)
@@ -6665,6 +6665,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 45.72) (xy 231.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2d44a3-13e7-4452-96e7-c1db6a238fc2")
+	)
+	(wire
+		(pts
 			(xy 62.23 95.25) (xy 58.42 95.25)
 		)
 		(stroke
@@ -6775,7 +6785,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 74.93 118.11)
+			(xy 55.88 118.11) (xy 74.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7082,16 +7092,6 @@
 			(type default)
 		)
 		(uuid "466e8cc8-a99d-4eb1-9130-3007b68d325d")
-	)
-	(wire
-		(pts
-			(xy 55.88 118.11) (xy 66.04 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487a8821-4386-4404-9643-132304a75927")
 	)
 	(wire
 		(pts
@@ -11235,7 +11235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
 			(at 257.81 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13155,7 +13155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
 			(at 247.65 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14764,6 +14764,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 222.25 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84027507-72e5-4054-ae9d-0a7681d685d0")
+		(property "Reference" "#FLG010"
+			(at 222.25 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 222.25 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 222.25 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be967683-d48f-4050-a958-e2af0b2988db")
+		)
+		(instances
+			(project "interfacecircuito"
+				(path "/21d6ebf1-8438-4874-a5b6-238c3ba91f04"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 234.95 129.54 270)
 		(unit 1)
@@ -15898,84 +15976,6 @@
 			(project "interfacecircuito"
 				(path "/21d6ebf1-8438-4874-a5b6-238c3ba91f04"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 66.04 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "985c6b16-a847-4adc-b03c-2ea904ab616a")
-		(property "Reference" "#FLG07"
-			(at 66.04 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 66.04 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd3acb2f-8e25-4f2e-990f-943bbf709f56")
-		)
-		(instances
-			(project "interfacecircuito"
-				(path "/21d6ebf1-8438-4874-a5b6-238c3ba91f04"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -18387,6 +18387,84 @@
 			(project "interfacecircuito"
 				(path "/21d6ebf1-8438-4874-a5b6-238c3ba91f04"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4a647d-7f04-4de8-ad6e-0411800334e6")
+		(property "Reference" "#FLG011"
+			(at 231.14 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d41ef3e-bdfe-4cf5-a1cc-2a1f3dbde378")
+		)
+		(instances
+			(project "interfacecircuito"
+				(path "/21d6ebf1-8438-4874-a5b6-238c3ba91f04"
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)

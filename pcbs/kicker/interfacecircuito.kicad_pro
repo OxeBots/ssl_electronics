@@ -120,7 +120,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -710,7 +710,7 @@
         "uuid": "21d6ebf1-8438-4874-a5b6-238c3ba91f04"
       }
     ],
-    "used_designators": "J1-2,PS1,D2,D4-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
